@@ -7,34 +7,10 @@
         "rohanmahajan"
     ],
     "created_at": "2018-09-27 16:05:14",
-    "edges": [
-        {
-            "ports": [
-                {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "raw_data.csv",
-            "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
-        }
-    ],
+    "edges": [],
     "nodes": [
         {
             "name": "raw_data.csv"
-        },
-        {
-            "name": "clean.R"
         },
         {
             "name": "data.csv"
@@ -44,6 +20,6 @@
             "name": "Understand_data.R"
         }
     ],
-    "updated_at": "2018-10-09 14:43:02",
+    "updated_at": "2018-10-09 14:43:40",
     "url": "https://github.com/fall2018-saltz/team55"
 }
