@@ -17,6 +17,17 @@
             ],
             "source": "raw_data.csv",
             "target": "Understand_data.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "output": "data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Understand_data.R",
+            "target": "clean.R"
         }
     ],
     "nodes": [
@@ -47,6 +58,6 @@
             "name": "evaluation.R"
         }
     ],
-    "updated_at": "2018-10-09 14:51:02",
+    "updated_at": "2018-10-09 14:51:26",
     "url": "https://github.com/fall2018-saltz/team55"
 }
