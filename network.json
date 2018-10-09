@@ -95,13 +95,15 @@
         },
         {
             "desc": "",
-            "name": "model_generation2.R.R"
+            "name": "model_generation3.R"
         },
         {
+            "assigned_to": "not assigned",
             "desc": "",
-            "name": "model_generation3.R"
+            "name": "model_generation2.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-09 14:54:19",
+    "updated_at": "2018-10-09 14:54:29",
     "url": "https://github.com/fall2018-saltz/team55"
 }
