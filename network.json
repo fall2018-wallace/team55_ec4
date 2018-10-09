@@ -114,6 +114,16 @@
             ],
             "source": "model_generation3.R",
             "target": "evaluation.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "model_matrix",
+                    "type": "csv"
+                }
+            ],
+            "source": "evaluation.R",
+            "target": "evaluation_matrix.csv"
         }
     ],
     "nodes": [
@@ -159,6 +169,6 @@
             "name": "evaluation_matrix.csv"
         }
     ],
-    "updated_at": "2018-10-09 14:56:57",
+    "updated_at": "2018-10-09 14:57:18",
     "url": "https://github.com/fall2018-saltz/team55"
 }
