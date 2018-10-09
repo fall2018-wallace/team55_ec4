@@ -103,6 +103,17 @@
             ],
             "source": "model_generation2.R",
             "target": "evaluation.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "model3",
+                    "output": "model3",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "model_generation3.R",
+            "target": "evaluation.R"
         }
     ],
     "nodes": [
@@ -148,6 +159,6 @@
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-09 14:55:53",
+    "updated_at": "2018-10-09 14:56:06",
     "url": "https://github.com/fall2018-saltz/team55"
 }
