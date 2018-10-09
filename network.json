@@ -11,22 +11,12 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
+                    "input": "data",
                     "type": "csv"
                 }
             ],
             "source": "raw_data.csv",
-            "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
+            "target": "Understand_data.R"
         }
     ],
     "nodes": [
@@ -34,12 +24,29 @@
             "name": "raw_data.csv"
         },
         {
+            "name": "data.csv"
+        },
+        {
+            "desc": "",
+            "name": "Understand_data.R"
+        },
+        {
+            "desc": "",
             "name": "clean.R"
         },
         {
-            "name": "data.csv"
+            "desc": "",
+            "name": "Exploratory_Data_Analysis.R"
+        },
+        {
+            "desc": "",
+            "name": "model_generation.R"
+        },
+        {
+            "desc": "",
+            "name": "evaluation.R"
         }
     ],
-    "updated_at": "2018-09-27 16:07:05",
+    "updated_at": "2018-10-09 14:51:02",
     "url": "https://github.com/fall2018-saltz/team55"
 }
