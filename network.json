@@ -26,8 +26,12 @@
         {
             "desc": "",
             "name": "Exploratory_Data_Analysis.R"
+        },
+        {
+            "desc": "",
+            "name": "model_generation.R"
         }
     ],
-    "updated_at": "2018-10-09 14:44:28",
+    "updated_at": "2018-10-09 14:44:48",
     "url": "https://github.com/fall2018-saltz/team55"
 }
