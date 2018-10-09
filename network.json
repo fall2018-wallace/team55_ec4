@@ -38,6 +38,16 @@
             ],
             "source": "clean.R",
             "target": "cleaned_data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "Exploratory_Data_Analysis.R"
         }
     ],
     "nodes": [
@@ -71,6 +81,6 @@
             "name": "cleaned_data.csv"
         }
     ],
-    "updated_at": "2018-10-09 14:51:58",
+    "updated_at": "2018-10-09 14:52:11",
     "url": "https://github.com/fall2018-saltz/team55"
 }
