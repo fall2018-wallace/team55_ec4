@@ -92,8 +92,12 @@
             "desc": "",
             "name": "model_generation1.R",
             "task_status": "proposed"
+        },
+        {
+            "desc": "",
+            "name": "model_generation2.R.R"
         }
     ],
-    "updated_at": "2018-10-09 14:53:37",
+    "updated_at": "2018-10-09 14:53:59",
     "url": "https://github.com/fall2018-saltz/team55"
 }
