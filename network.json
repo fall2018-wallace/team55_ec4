@@ -208,8 +208,11 @@
         },
         {
             "name": "plot1.png"
+        },
+        {
+            "name": "plot2.png"
         }
     ],
-    "updated_at": "2018-10-10 21:02:11",
+    "updated_at": "2018-10-10 21:02:23",
     "url": "https://github.com/fall2018-saltz/team55"
 }
