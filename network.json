@@ -12,16 +12,6 @@
             "ports": [
                 {
                     "input": "data",
-                    "type": "csv"
-                }
-            ],
-            "source": "raw_data.csv",
-            "target": "Understand_data.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "data",
                     "output": "data",
                     "type": "r_obj"
                 }
@@ -161,6 +151,16 @@
             "ports": [],
             "source": "Exploratory_Data_Analysis.R",
             "target": "plot2.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "raw_data.csv",
+            "target": "Understand_data.R"
         }
     ],
     "nodes": [
@@ -177,7 +177,7 @@
             "assigned_to": "yash",
             "desc": "Define the possible questions to be answered. Explore and categorize the attributes of the data",
             "name": "Understand_data.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         },
         {
             "assigned_to": "jkachhadia",
@@ -228,6 +228,6 @@
             "name": "plot2.png"
         }
     ],
-    "updated_at": "2018-10-10 21:03:01",
+    "updated_at": "2018-10-10 21:06:03",
     "url": "https://github.com/fall2018-saltz/team55"
 }
