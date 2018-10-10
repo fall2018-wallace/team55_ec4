@@ -180,12 +180,6 @@
             "task_status": "proposed"
         },
         {
-            "assigned_to": "achandir",
-            "desc": "Descriptive analysis of data using graphs and visualizations and do diagnostic analysis to gain insights",
-            "name": "Exploratory_Data_Analysis.R",
-            "task_status": "in progress"
-        },
-        {
             "assigned_to": "rohanmahajan",
             "desc": "use appropriate algorithms to generate models for predictive analytics",
             "name": "model_generation1.R",
@@ -226,8 +220,14 @@
             "desc": "Define the possible questions to be answered. Explore and categorize the attributes of the data",
             "name": "Understand_data.R",
             "task_status": "proposed"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "Descriptive analysis of data using graphs and visualizations and do diagnostic analysis to gain insights",
+            "name": "Exploratory_Data_Analysis.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-10 21:16:14",
+    "updated_at": "2018-10-10 21:16:22",
     "url": "https://github.com/fall2018-saltz/team55"
 }
