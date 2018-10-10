@@ -201,10 +201,12 @@
             "task_status": "proposed"
         },
         {
-            "desc": "",
-            "name": "model_generation4.R"
+            "assigned_to": "rohanmahajan",
+            "desc": "use appropriate algorithms to generate models for predictive analytics",
+            "name": "model_generation4.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-10 20:59:27",
+    "updated_at": "2018-10-10 21:01:44",
     "url": "https://github.com/fall2018-saltz/team55"
 }
