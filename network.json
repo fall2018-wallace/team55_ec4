@@ -205,8 +205,11 @@
             "desc": "use appropriate algorithms to generate models for predictive analytics",
             "name": "model_generation4.R",
             "task_status": "proposed"
+        },
+        {
+            "name": "plot1.png"
         }
     ],
-    "updated_at": "2018-10-10 21:01:44",
+    "updated_at": "2018-10-10 21:02:11",
     "url": "https://github.com/fall2018-saltz/team55"
 }
