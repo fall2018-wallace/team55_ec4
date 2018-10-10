@@ -124,6 +124,17 @@
             ],
             "source": "evaluation.R",
             "target": "evaluation_matrix.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "output": "data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "model_generation4.R"
         }
     ],
     "nodes": [
@@ -183,6 +194,6 @@
             "name": "model_generation4.R"
         }
     ],
-    "updated_at": "2018-10-10 20:58:43",
+    "updated_at": "2018-10-10 20:59:01",
     "url": "https://github.com/fall2018-saltz/team55"
 }
