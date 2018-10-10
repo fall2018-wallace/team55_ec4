@@ -12,47 +12,6 @@
             "ports": [
                 {
                     "input": "data",
-                    "type": "csv"
-                }
-            ],
-            "source": "raw_data.csv",
-            "target": "Understand_data.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "data",
-                    "output": "data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Understand_data.R",
-            "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "cleaned_data.csv"
-        },
-        {
-            "ports": [
-                {
-                    "input": "data",
-                    "type": "csv"
-                }
-            ],
-            "source": "cleaned_data.csv",
-            "target": "Exploratory_Data_Analysis.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "data",
                     "output": "data",
                     "type": "r_obj"
                 }
@@ -124,6 +83,84 @@
             ],
             "source": "evaluation.R",
             "target": "evaluation_matrix.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "output": "data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "model_generation4.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "model4",
+                    "output": "model4",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "model_generation4.R",
+            "target": "evaluation.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "data",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "plot1.png"
+        },
+        {
+            "ports": [],
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "plot2.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "raw_data.csv",
+            "target": "Understand_data.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "cleaned_data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "output": "raw_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Understand_data.R",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "Exploratory_Data_Analysis.R"
         }
     ],
     "nodes": [
@@ -131,44 +168,66 @@
             "name": "raw_data.csv"
         },
         {
-            "desc": "",
-            "name": "Understand_data.R"
-        },
-        {
-            "desc": "",
-            "name": "clean.R"
-        },
-        {
-            "desc": "",
-            "name": "Exploratory_Data_Analysis.R"
-        },
-        {
-            "desc": "",
-            "name": "evaluation.R"
-        },
-        {
             "name": "cleaned_data.csv"
         },
         {
-            "assigned_to": "not assigned",
-            "desc": "",
+            "name": "evaluation_matrix.csv"
+        },
+        {
+            "assigned_to": "jkachhadia",
+            "desc": "Remove redundant columns, handle missing data, transform data",
+            "name": "clean.R",
+            "task_status": "proposed"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "Descriptive analysis of data using graphs and visualizations and do diagnostic analysis to gain insights",
+            "name": "Exploratory_Data_Analysis.R",
+            "task_status": "proposed"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "use appropriate algorithms to generate models for predictive analytics",
             "name": "model_generation1.R",
             "task_status": "proposed"
         },
         {
-            "desc": "",
-            "name": "model_generation3.R"
+            "assigned_to": "eashani",
+            "desc": "use appropriate algorithms to generate models for predictive analytics",
+            "name": "model_generation3.R",
+            "task_status": "proposed"
         },
         {
-            "assigned_to": "not assigned",
-            "desc": "",
+            "assigned_to": "jkachhadia",
+            "desc": "use appropriate algorithms to generate models for predictive analytics",
             "name": "model_generation2.R",
             "task_status": "proposed"
         },
         {
-            "name": "evaluation_matrix.csv"
+            "assigned_to": "achandir",
+            "desc": "Validate and compare models for accuracy",
+            "name": "evaluation.R",
+            "task_status": "proposed"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "use appropriate algorithms to generate models for predictive analytics",
+            "name": "model_generation4.R",
+            "task_status": "proposed"
+        },
+        {
+            "name": "plot1.png"
+        },
+        {
+            "name": "plot2.png"
+        },
+        {
+            "assigned_to": "yash",
+            "desc": "Define the possible questions to be answered. Explore and categorize the attributes of the data",
+            "name": "Understand_data.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 14:57:18",
+    "updated_at": "2018-10-10 21:10:19",
     "url": "https://github.com/fall2018-saltz/team55"
 }
