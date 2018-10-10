@@ -11,16 +11,6 @@
         {
             "ports": [
                 {
-                    "output": "data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "cleaned_data.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "data",
                     "type": "csv"
                 }
@@ -161,6 +151,16 @@
             ],
             "source": "Understand_data.R",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "cleaned_data.csv"
         }
     ],
     "nodes": [
@@ -228,6 +228,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 21:08:52",
+    "updated_at": "2018-10-10 21:09:09",
     "url": "https://github.com/fall2018-saltz/team55"
 }
