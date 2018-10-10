@@ -174,12 +174,6 @@
             "name": "evaluation_matrix.csv"
         },
         {
-            "assigned_to": "yash",
-            "desc": "Define the possible questions to be answered. Explore and categorize the attributes of the data",
-            "name": "Understand_data.R",
-            "task_status": "in progress"
-        },
-        {
             "assigned_to": "jkachhadia",
             "desc": "Remove redundant columns, handle missing data, transform data",
             "name": "clean.R",
@@ -226,8 +220,14 @@
         },
         {
             "name": "plot2.png"
+        },
+        {
+            "assigned_to": "yash",
+            "desc": "Define the possible questions to be answered. Explore and categorize the attributes of the data",
+            "name": "Understand_data.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-10 21:06:03",
+    "updated_at": "2018-10-10 21:06:16",
     "url": "https://github.com/fall2018-saltz/team55"
 }
