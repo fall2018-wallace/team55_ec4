@@ -180,12 +180,6 @@
             "task_status": "proposed"
         },
         {
-            "assigned_to": "achandir",
-            "desc": "Validate and compare models for accuracy",
-            "name": "evaluation.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "plot1.png"
         },
         {
@@ -226,8 +220,14 @@
             "desc": "use appropriate algorithms to generate models for predictive analytics",
             "name": "model_generation4.R",
             "task_status": "proposed"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "Validate and compare models for accuracy",
+            "name": "evaluation.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-10 21:16:56",
+    "updated_at": "2018-10-10 21:17:05",
     "url": "https://github.com/fall2018-saltz/team55"
 }
