@@ -156,6 +156,11 @@
             ],
             "source": "Exploratory_Data_Analysis.R",
             "target": "plot1.png"
+        },
+        {
+            "ports": [],
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "plot2.png"
         }
     ],
     "nodes": [
@@ -223,6 +228,6 @@
             "name": "plot2.png"
         }
     ],
-    "updated_at": "2018-10-10 21:02:49",
+    "updated_at": "2018-10-10 21:03:01",
     "url": "https://github.com/fall2018-saltz/team55"
 }
