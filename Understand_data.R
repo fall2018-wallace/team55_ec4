@@ -1,2 +1,3 @@
 
-raw_data<-data
+x<-data
+str(x)
