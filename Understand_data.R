@@ -1,3 +1,4 @@
 
 raw_data<-data
-raw_data
+str(raw_data)
+head(raw_data)
