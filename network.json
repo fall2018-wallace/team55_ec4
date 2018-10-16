@@ -128,7 +128,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "raw_data.csv",
+            "source": "satisfactionSurvey.csv",
             "target": "Understand_data.R"
         },
         {
@@ -165,7 +165,7 @@
     ],
     "nodes": [
         {
-            "name": "raw_data.csv"
+            "name": "satisfactionSurvey.csv"
         },
         {
             "name": "cleaned_data.csv"
@@ -228,6 +228,6 @@
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-10 21:17:05",
+    "updated_at": "2018-10-16 15:51:35",
     "url": "https://github.com/fall2018-saltz/team55"
 }
