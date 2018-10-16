@@ -1,4 +1,2 @@
 
-x <- data
-str(x)
-head(x)
+raw_data<-data
