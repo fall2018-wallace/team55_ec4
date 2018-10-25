@@ -6,7 +6,7 @@ head(raw_data)
 unique(is.na(raw_data$X..of.Flight.with.other.Airlines))
 
 
-correl(Origin.State,arrival_delay_in_minutes)
+cor(Origin.State,arrival_delay_in_minutes)
 flight_time_in_minutes
 departure_delay_in_minutes
 
