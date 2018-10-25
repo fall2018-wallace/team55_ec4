@@ -5,3 +5,5 @@ head(raw_data)
 
 any(is.na(raw_data))
 unique(colnames(raw_data[is.na(raw_data),]))
+
+unique(is.na(raw_data))
