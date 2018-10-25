@@ -3,7 +3,7 @@ raw_data<-data
 str(raw_data)
 head(raw_data)
 
-unique(is.na(raw_data$Day.of.Month))
+unique(is.na(raw_data$Eating.and.Drinking.at.Airport))
 
 
 arrival_delay_in_minutes
