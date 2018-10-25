@@ -10,4 +10,6 @@ cor(x=raw_data$Arrival.Delay.in.Minutes, y=raw_data$Origin.City,method = c("pear
 flight_time_in_minutes
 departure_delay_in_minutes
 
+lm(formula = Arrival.Delay.in.Minutes ~ Origin.City, data = raw_data)
+
 
