@@ -189,7 +189,7 @@
             "assigned_to": "jkachhadia",
             "desc": "Remove redundant columns, handle missing data, transform data",
             "name": "clean.R",
-            "task_status": "not started"
+            "task_status": "in progress"
         },
         {
             "assigned_to": "achandir",
@@ -228,6 +228,6 @@
             "task_status": "not started"
         }
     ],
-    "updated_at": "2018-10-25 15:12:47",
+    "updated_at": "2018-10-25 15:13:51",
     "url": "https://github.com/fall2018-saltz/team55"
 }
