@@ -3,7 +3,7 @@ raw_data<-data
 str(raw_data)
 head(raw_data)
 
-unique(is.na(raw_data$Scheduled.Departure.Hour))
+unique(is.na(raw_data$Destination.State))
 
 
 arrival_delay_in_minutes
