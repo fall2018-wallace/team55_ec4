@@ -1,0 +1,233 @@
+{
+    "collaborators": [
+        "jkachhadia",
+        "achandir",
+        "yash",
+        "eashani",
+        "rohanmahajan"
+    ],
+    "created_at": "2018-09-27 16:05:14",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "output": "data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "model_generation1.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "output": "data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "model_generation2.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "output": "data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "model_generation3.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "model1",
+                    "output": "model1",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "model_generation1.R",
+            "target": "evaluation.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "model2",
+                    "output": "model2",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "model_generation2.R",
+            "target": "evaluation.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "model3",
+                    "output": "model3",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "model_generation3.R",
+            "target": "evaluation.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "model_matrix",
+                    "type": "csv"
+                }
+            ],
+            "source": "evaluation.R",
+            "target": "evaluation_matrix.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "output": "data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "model_generation4.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "model4",
+                    "output": "model4",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "model_generation4.R",
+            "target": "evaluation.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "data",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "plot1.png"
+        },
+        {
+            "ports": [],
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "plot2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "cleaned_data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "output": "raw_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Understand_data.R",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "Exploratory_Data_Analysis.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "Understand_data.R"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "satisfactionSurvey.csv"
+        },
+        {
+            "name": "cleaned_data.csv"
+        },
+        {
+            "name": "evaluation_matrix.csv"
+        },
+        {
+            "name": "plot1.png"
+        },
+        {
+            "name": "plot2.png"
+        },
+        {
+            "assigned_to": "yash",
+            "desc": "Define the possible questions to be answered. Explore and categorize the attributes of the data",
+            "name": "Understand_data.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "jkachhadia",
+            "desc": "Remove redundant columns, handle missing data, transform data",
+            "name": "clean.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "Descriptive analysis of data using graphs and visualizations and do diagnostic analysis to gain insights",
+            "name": "Exploratory_Data_Analysis.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "use appropriate algorithms to generate models for predictive analytics",
+            "name": "model_generation1.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "jkachhadia",
+            "desc": "use appropriate algorithms to generate models for predictive analytics",
+            "name": "model_generation2.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "eashani",
+            "desc": "use appropriate algorithms to generate models for predictive analytics",
+            "name": "model_generation3.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "use appropriate algorithms to generate models for predictive analytics",
+            "name": "model_generation4.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "Validate and compare models for accuracy",
+            "name": "evaluation.R",
+            "task_status": "not started"
+        }
+    ],
+    "updated_at": "2018-10-25 15:12:47",
+    "url": "https://github.com/fall2018-saltz/team55"
+}
