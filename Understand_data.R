@@ -8,5 +8,6 @@ unique(is.na(raw_data$Departure.Delay.in.Minutes))
 
 arrival_delay_in_minutes
 flight_time_in_minutes
+departure_delay_in_minutes
 
 
