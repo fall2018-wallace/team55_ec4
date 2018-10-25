@@ -3,7 +3,7 @@ raw_data<-data
 str(raw_data)
 head(raw_data)
 
-unique(is.na(Gender))
+unique(is.na(raw_data$Gender))
 
 
 
