@@ -213,8 +213,11 @@
             "desc": "Validate and compare models for accuracy",
             "name": "evaluation.R",
             "task_status": "not started"
+        },
+        {
+            "name": "satisfaactionSurvey.csv"
         }
     ],
-    "updated_at": "2018-10-25 15:32:09",
+    "updated_at": "2018-10-25 15:32:31",
     "url": "https://github.com/fall2018-saltz/team55"
 }
