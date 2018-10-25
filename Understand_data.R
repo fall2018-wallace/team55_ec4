@@ -5,6 +5,6 @@ head(raw_data)
 
 unique(is.na(raw_data$Arrival.Delay.in.Minutes))
 
-lm(formula = Arrival.Delay.in.Minutes ~ Origin.City, data = raw_data)
+lm(formula = Arrival.Delay.in.Minutes ~ Orgin.City, data = raw_data)
 
 
