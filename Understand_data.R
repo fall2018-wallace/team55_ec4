@@ -3,7 +3,7 @@ raw_data<-data
 str(raw_data)
 head(raw_data)
 
-unique(is.na(raw_data$Shopping.Amount.at.Airport))
+unique(is.na(raw_data$No..of.other.Loyalty.Cards))
 
 
 arrival_delay_in_minutes
