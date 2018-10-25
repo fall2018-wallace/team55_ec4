@@ -3,5 +3,5 @@ raw_data<-data
 str(raw_data)
 head(raw_data)
 
-unique(is.na(raw_data$Type.of.Travel))
+unique(is.na(raw_data$Airline.Code))
 
