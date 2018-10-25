@@ -151,6 +151,16 @@
             ],
             "source": "cleaned_data.csv",
             "target": "Exploratory_Data_Analysis.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "Understand_data.R"
         }
     ],
     "nodes": [
@@ -218,6 +228,6 @@
             "name": "satisfactionSurvey.csv"
         }
     ],
-    "updated_at": "2018-10-25 15:32:41",
+    "updated_at": "2018-10-25 15:32:53",
     "url": "https://github.com/fall2018-saltz/team55"
 }
