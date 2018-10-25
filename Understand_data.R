@@ -3,5 +3,7 @@ raw_data<-data
 str(raw_data)
 head(raw_data)
 
-unique(is.na(raw_data$Flight.time.in.minutes))
+unique(raw_data$Flight.time.in.minutes)
+
+
 
