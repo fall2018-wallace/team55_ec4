@@ -3,7 +3,7 @@ raw_data<-data
 str(raw_data)
 head(raw_data)
 
-unique(is.na(raw_data$No.of.Flights.p.a.))
+unique(is.na(raw_data$X..of.Flight.with.other.Airlines))
 
 
 arrival_delay_in_minutes
