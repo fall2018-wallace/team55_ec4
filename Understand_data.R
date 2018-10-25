@@ -6,7 +6,7 @@ head(raw_data)
 unique(is.na(raw_data$Arrival.Delay.in.Minutes))
 
 
-cor(raw_data$Arrival.Delay.in.Minutes, raw_data$Origin.City)
+cor(x=raw_data$Arrival.Delay.in.Minutes, y=raw_data$Origin.City)
 flight_time_in_minutes
 departure_delay_in_minutes
 
