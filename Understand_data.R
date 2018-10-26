@@ -11,7 +11,7 @@ head(subset(raw_data, raw_data$Flight.cancelled == 'No'),10)
 library('dplyr')
 abc <- raw_data %>% filter(is.na(Arrival.Delay.in.Minutes), Flight.cancelled == 'No')
 head(abc,10)
-max(raw_data$Arrival.Delay.in.Minutes)
+max(!is.na(raw_data$Arrival.Delay.in.Minutes)
 lm(formula = Arrival.Delay.in.Minutes ~ Orgin.City, data = raw_data)
 
 
