@@ -7,7 +7,7 @@ unique(is.na(raw_data$Arrival.Delay.in.Minutes))
 
 raw_data
 
-count(raw_data$Flight.cancelled == 'Yes')
+length(raw_data$Flight.cancelled == 'Yes')
 library('dplyr')
 abc <- raw_data %>% filter(is.na(Arrival.Delay.in.Minutes), Flight.cancelled == 'No')
 head(abc,10)
