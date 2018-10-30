@@ -13,6 +13,6 @@ max((raw_data$Arrival.Delay.in.Minutes), na.rm=TRUE)
 lm(formula = Arrival.Delay.in.Minutes ~ Orgin.City, data = raw_data)
 
 attach(raw_data)
-plot(Satisfaction, Shopping.Amount.at.Airport)
+abc <- plot(Satisfaction, Shopping.Amount.at.Airport)
 
 
