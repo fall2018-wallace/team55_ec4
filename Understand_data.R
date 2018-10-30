@@ -12,6 +12,7 @@ length(raw_data$Flight.cancelled == 'No')
 max((raw_data$Arrival.Delay.in.Minutes), na.rm=TRUE)
 lm(formula = Arrival.Delay.in.Minutes ~ Orgin.City, data = raw_data)
 
-plot(raw_data$Satisfaction, raw_data$Shopping.Amount.at.Airport)
+attach(raw_data)
+plot(Satisfaction, Shopping.Amount.at.Airport)
 
 
