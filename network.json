@@ -201,12 +201,6 @@
             "task_status": "not started"
         },
         {
-            "assigned_to": "jkachhadia",
-            "desc": "use appropriate algorithms to generate models for predictive analytics",
-            "name": "model_generation2.R",
-            "task_status": "not started"
-        },
-        {
             "assigned_to": "eashani",
             "desc": "use appropriate algorithms to generate models for predictive analytics",
             "name": "model_generation3.R",
@@ -226,8 +220,17 @@
         },
         {
             "name": "satisfactionSurvey.csv"
+        },
+        {
+            "assigned_to": "jkachhadia",
+            "desc": "use appropriate algorithms to generate models for predictive analytics",
+            "name": "model_generation2.R",
+            "task_status": "not started"
+        },
+        {
+            "name": "plot9836.png"
         }
     ],
-    "updated_at": "2018-10-25 15:32:53",
+    "updated_at": "2018-10-30 20:19:03",
     "url": "https://github.com/fall2018-saltz/team55"
 }
