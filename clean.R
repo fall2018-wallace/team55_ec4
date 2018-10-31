@@ -8,4 +8,5 @@ sapply(raw_data,function(y)unique(y))
 
 #conversion to numeric converts the abnprmal values to NA
 clean_data$Satisfaction <- as.numeric(as.character(t(dataframe$Satisfaction)))
+# replace the 
 clean_data$Satisfaction[is.na(dataframe$Satisfaction)] <- 3.5
