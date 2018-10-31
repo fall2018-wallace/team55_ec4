@@ -10,7 +10,8 @@ sapply(clean_data,function(y)unique(y))
 clean_data$Satisfaction <- as.numeric(as.character(t(clean_data$Satisfaction)))
 
 mean(clean_data$Satisfaction,na.rm=TRUE)
+# mean = 3.37941
 # replace the NA values 
-#clean_data$Satisfaction[is.na(clean_data$Satisfaction)] <- meanSatisfaction
+#clean_data$Satisfaction[is.na(clean_data$Satisfaction)] <- 3.5
 
 unique(clean_data$Satisfaction)
