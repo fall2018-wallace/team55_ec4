@@ -9,5 +9,8 @@ raw_data<-data
 # and other providers
 # The date column will be converted into month and day of week to determine if time of
 # year and time of week have any significant effect on the Satisfaction
+
+# find unique values in each column to check for abnormal values
 sapply(x,function(y)unique(y))
+
 
