@@ -11,4 +11,4 @@ head(raw_data)
 # year and time of week have any significant effect on the Satisfaction
 #lm(Satisfaction~Gender ,data=raw_data)
 
-unique(is.na(raw_data$Satisfaction))
+is.na(raw_data$Satisfaction))
