@@ -2,5 +2,5 @@
 raw_data<-data
 
 
-dataframe$Satisfaction <- as.numeric(dataframe$Satisfaction)
-cor(dataframe$Shopping.Amount.at.Airport, dataframe$Satisfaction)
+raw_data$Satisfaction <- as.numeric(raw_data$Satisfaction)
+cor(raw_data$Shopping.Amount.at.Airport, raw_data$Satisfaction)
