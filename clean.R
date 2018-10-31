@@ -9,7 +9,7 @@ sapply(clean_data,function(y)unique(y))
 #conversion to numeric converts the abnprmal values to NA
 clean_data$Satisfaction <- as.numeric(as.character(t(clean_data$Satisfaction)))
 
-mean(clean_data$Satisfaction)
+mean(clean_data$Satisfaction,na.rm=TRUE)
 # replace the NA values 
 #clean_data$Satisfaction[is.na(clean_data$Satisfaction)] <- meanSatisfaction
 
