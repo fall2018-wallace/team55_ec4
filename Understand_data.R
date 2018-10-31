@@ -9,4 +9,4 @@ head(raw_data)
 # and other providers
 # The date column will be converted into month and day of week to determine if time of
 # year and time of week have any significant effect on the Satisfaction
-lm(Satisfaction~Gender ,data=raw_data)
+#lm(Satisfaction~Gender ,data=raw_data)
