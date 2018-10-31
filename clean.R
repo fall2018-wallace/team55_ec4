@@ -13,6 +13,7 @@ mean(clean_data$Satisfaction,na.rm=TRUE)
 # mean = 3.37941
 # replace the NA values with mean
 # the NA values are replaces with 3.5 instead of the actual value of the mean because 
-#clean_data$Satisfaction[is.na(clean_data$Satisfaction)] <- 3.5
+# satisfaction is a factor variable and 3.5 is the closest value
+clean_data$Satisfaction[is.na(clean_data$Satisfaction)] <- 3.5
 
 unique(clean_data$Satisfaction)
