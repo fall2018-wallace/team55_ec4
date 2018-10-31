@@ -1,9 +1,8 @@
 
 raw_data<-data
-str(raw_data)
-head(raw_data)
 
-attach(data)
+
+attach(raw_data)
 abc <- plot(Satisfaction, Shopping.Amount.at.Airport)
 
 
