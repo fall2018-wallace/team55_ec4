@@ -3,6 +3,7 @@ raw_data<-data
 
 
 attach(raw_data)
-abc <- plot(Satisfaction, Shopping.Amount.at.Airport, xlim=200, ylim=200)
+clim = c(min(Shopping.Amount.at.Airport),max(Shopping.Amount.at.Airport))
+abc <- plot(Satisfaction, Shopping.Amount.at.Airport, xlim=clim)
 
 
