@@ -11,6 +11,6 @@ raw_data<-data
 # year and time of week have any significant effect on the Satisfaction
 
 # find unique values in each column to check for abnormal values
-sapply(x,function(y)unique(y))
+sapply(raw_data,function(y)unique(y))
 
 
