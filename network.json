@@ -423,8 +423,11 @@
         },
         {
             "name": "satisfactionFlightTime.png"
+        },
+        {
+            "name": "satisfactionDistance.png"
         }
     ],
-    "updated_at": "2018-11-01 16:29:42",
+    "updated_at": "2018-11-01 16:30:18",
     "url": "https://github.com/fall2018-saltz/team55"
 }
