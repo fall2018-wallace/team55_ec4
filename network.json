@@ -404,8 +404,11 @@
         },
         {
             "name": "satisfactionDelay.png"
+        },
+        {
+            "name": "satisfactionArrivalDelay.png"
         }
     ],
-    "updated_at": "2018-11-01 16:27:51",
+    "updated_at": "2018-11-01 16:28:38",
     "url": "https://github.com/fall2018-saltz/team55"
 }
