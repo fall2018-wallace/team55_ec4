@@ -345,8 +345,11 @@
         },
         {
             "name": "SatisfactionDayOfMonth.png"
+        },
+        {
+            "name": "satisfactionloyaltycards.png"
         }
     ],
-    "updated_at": "2018-11-01 16:18:10",
+    "updated_at": "2018-11-01 16:18:31",
     "url": "https://github.com/fall2018-saltz/team55"
 }
