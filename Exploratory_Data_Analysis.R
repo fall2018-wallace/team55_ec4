@@ -51,3 +51,9 @@ plot12<-ggplot(df)+geom_bar(mapping=aes(x=Year.of.First.Flight,color=southeast,f
 plot13<-ggplot(df)+geom_bar(mapping=aes(x=Price.Sensitivity,fill=southeast),position="fill",width=0.4)
 plot14<-ggplot(df)+geom_bar(mapping=aes(x=Age,fill=southeast),position="fill",width=0.4)
 
+df$Satisfaction=as.numeric((as.character((t(df$Satisfaction)))))
+class(df$Flight.date)
+df$Flight.date=as.Date(df$Flight.date, format="%m/%d/%Y")
+class(df$Flight.date)
+plot(df$Flight.date,sat$Satisfaction)
+
