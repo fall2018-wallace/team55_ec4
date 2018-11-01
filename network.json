@@ -273,8 +273,12 @@
             "desc": "Descriptive analysis of data using graphs and visualizations and do diagnostic analysis to gain insights",
             "name": "Exploratory_Data_Analysis1.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "Exploratory_Data_Analysis2.R"
         }
     ],
-    "updated_at": "2018-11-01 16:05:11",
+    "updated_at": "2018-11-01 16:07:48",
     "url": "https://github.com/fall2018-saltz/team55"
 }
