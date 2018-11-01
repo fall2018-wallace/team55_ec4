@@ -302,6 +302,16 @@
             ],
             "source": "Exploratory_Data_Analysis5.R",
             "target": "satisfactionCancelled.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionFlightTime",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis5.R",
+            "target": "satisfactionFlightTime.png"
         }
     ],
     "nodes": [
@@ -441,6 +451,6 @@
             "name": "satisfactionArrivalGreater.png"
         }
     ],
-    "updated_at": "2018-11-01 16:37:15",
+    "updated_at": "2018-11-01 16:37:44",
     "url": "https://github.com/fall2018-saltz/team55"
 }
