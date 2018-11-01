@@ -18,8 +18,11 @@ cor(df$Arrival.Delay.in.Minutes,df$Satisfaction)
 #In this plot, customer satisfactions can be seen by flights which were cancelled as well.
 satisfactionCancelled<-ggplot(df,aes(Flight.cancelled,Satisfaction))+geom_count()+facet_grid(southeast ~ .)+stat_summary(aes(y=Satisfaction),fun.y = "mean", colour = "red", size = 2, geom = "point")
 
+
+#In this plot, the arrival delay of flights which are greater than 5 minutes have comparatively low satisfaction than the flights
 satisfactionFlightTime<-ggplot(df,aes(Flight.time.in.minutes,Satisfaction))+geom_count()+facet_grid(southeast ~ .)+stat_summary(aes(y=Satisfaction),fun.y = "mean", colour = "red", size = 2, geom = "point")
 cor(df$Flight.time.in.minutes,df$Satisfaction)
+
 
 #In this plot, it can be observed that most number ofcustomers had flights which were of the distance of 500-1000 miles. 
 #The average customer satisfaction is about 3.5 with most flight distances under 1000 miles.
