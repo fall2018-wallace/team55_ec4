@@ -252,6 +252,16 @@
             ],
             "source": "Exploratory_Data_Analysis2.R",
             "target": "satisfactionloyaltycards.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatisfactionEatingAndDrinking",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis3.R",
+            "target": "SatisfactionEatingAndDrinking.png"
         }
     ],
     "nodes": [
@@ -373,6 +383,6 @@
             "name": "SatisfactionEatingAndDrinking.png"
         }
     ],
-    "updated_at": "2018-11-01 16:19:24",
+    "updated_at": "2018-11-01 16:19:45",
     "url": "https://github.com/fall2018-saltz/team55"
 }
