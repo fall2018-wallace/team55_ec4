@@ -232,6 +232,16 @@
             ],
             "source": "Exploratory_Data_Analysis2.R",
             "target": "Typeoftravelsatisfaction.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatisfactionDayOfMonth",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis3.R",
+            "target": "SatisfactionDayOfMonth.png"
         }
     ],
     "nodes": [
@@ -350,6 +360,6 @@
             "name": "satisfactionloyaltycards.png"
         }
     ],
-    "updated_at": "2018-11-01 16:18:31",
+    "updated_at": "2018-11-01 16:18:33",
     "url": "https://github.com/fall2018-saltz/team55"
 }
