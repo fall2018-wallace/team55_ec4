@@ -320,12 +320,15 @@
             "assigned_to": "rohanmahajan",
             "desc": "Visualization of columns from 19-23.",
             "name": "Exploratory_Data_Analysis5.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         },
         {
             "name": "SatisfactionShopping.png"
+        },
+        {
+            "name": "SatisfactionClass.png"
         }
     ],
-    "updated_at": "2018-11-01 16:12:43",
+    "updated_at": "2018-11-01 16:13:51",
     "url": "https://github.com/fall2018-saltz/team55"
 }
