@@ -107,16 +107,6 @@
             "target": "evaluation.R"
         },
         {
-            "ports": [
-                {
-                    "output": "data",
-                    "type": "png"
-                }
-            ],
-            "source": "Exploratory_Data_Analysis.R",
-            "target": "plot1.png"
-        },
-        {
             "ports": [],
             "source": "Exploratory_Data_Analysis.R",
             "target": "plot2.png"
@@ -165,12 +155,12 @@
         {
             "ports": [
                 {
-                    "output": "abc",
+                    "output": "plot1",
                     "type": "png"
                 }
             ],
-            "source": "Understand_data.R",
-            "target": "plot9836.png"
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "plot1.png"
         }
     ],
     "nodes": [
@@ -202,7 +192,7 @@
             "assigned_to": "achandir",
             "desc": "Descriptive analysis of data using graphs and visualizations and do diagnostic analysis to gain insights",
             "name": "Exploratory_Data_Analysis.R",
-            "task_status": "not started"
+            "task_status": "in progress"
         },
         {
             "assigned_to": "rohanmahajan",
@@ -241,6 +231,6 @@
             "name": "plot9836.png"
         }
     ],
-    "updated_at": "2018-10-30 20:19:47",
+    "updated_at": "2018-11-01 15:18:41",
     "url": "https://github.com/fall2018-saltz/team55"
 }
