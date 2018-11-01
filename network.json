@@ -16,7 +16,7 @@
                     "type": "r_obj"
                 }
             ],
-            "source": "Exploratory_Data_Analysis.R",
+            "source": "Exploratory_Data_Analysis1.R",
             "target": "model_generation1.R"
         },
         {
@@ -27,7 +27,7 @@
                     "type": "r_obj"
                 }
             ],
-            "source": "Exploratory_Data_Analysis.R",
+            "source": "Exploratory_Data_Analysis1.R",
             "target": "model_generation2.R"
         },
         {
@@ -38,7 +38,7 @@
                     "type": "r_obj"
                 }
             ],
-            "source": "Exploratory_Data_Analysis.R",
+            "source": "Exploratory_Data_Analysis1.R",
             "target": "model_generation3.R"
         },
         {
@@ -92,7 +92,7 @@
                     "type": "r_obj"
                 }
             ],
-            "source": "Exploratory_Data_Analysis.R",
+            "source": "Exploratory_Data_Analysis1.R",
             "target": "model_generation4.R"
         },
         {
@@ -135,7 +135,7 @@
                 }
             ],
             "source": "cleaned_data.csv",
-            "target": "Exploratory_Data_Analysis.R"
+            "target": "Exploratory_Data_Analysis1.R"
         },
         {
             "ports": [
@@ -150,21 +150,11 @@
         {
             "ports": [
                 {
-                    "output": "a",
-                    "type": "png"
-                }
-            ],
-            "source": "Exploratory_Data_Analysis.R",
-            "target": "FD1.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "satisfactionAirlineStatus",
                     "type": "png"
                 }
             ],
-            "source": "Exploratory_Data_Analysis.R",
+            "source": "Exploratory_Data_Analysis1.R",
             "target": "satisfactionAirlineStatus.png"
         },
         {
@@ -174,7 +164,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Exploratory_Data_Analysis.R",
+            "source": "Exploratory_Data_Analysis1.R",
             "target": "satisfactionGender.png"
         },
         {
@@ -184,7 +174,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Exploratory_Data_Analysis.R",
+            "source": "Exploratory_Data_Analysis1.R",
             "target": "satisfactionYearOfFirstFlight.png"
         },
         {
@@ -194,7 +184,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Exploratory_Data_Analysis.R",
+            "source": "Exploratory_Data_Analysis1.R",
             "target": "satisfactionPriceSensitivity.png"
         },
         {
@@ -204,7 +194,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Exploratory_Data_Analysis.R",
+            "source": "Exploratory_Data_Analysis1.R",
             "target": "satisfactionAge.png"
         }
     ],
@@ -231,12 +221,6 @@
             "assigned_to": "jkachhadia",
             "desc": "Remove redundant columns, handle missing data, transform data",
             "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "achandir",
-            "desc": "Descriptive analysis of data using graphs and visualizations and do diagnostic analysis to gain insights",
-            "name": "Exploratory_Data_Analysis.R",
             "task_status": "in progress"
         },
         {
@@ -283,8 +267,14 @@
         },
         {
             "name": "satisfactionPriceSensitivity.png"
+        },
+        {
+            "assigned_to": "jkachhadia",
+            "desc": "Descriptive analysis of data using graphs and visualizations and do diagnostic analysis to gain insights",
+            "name": "Exploratory_Data_Analysis1.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-01 15:53:55",
+    "updated_at": "2018-11-01 16:05:11",
     "url": "https://github.com/fall2018-saltz/team55"
 }
