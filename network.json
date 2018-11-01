@@ -170,16 +170,6 @@
         {
             "ports": [
                 {
-                    "output": "satisfactionAge",
-                    "type": "png"
-                }
-            ],
-            "source": "Exploratory_Data_Analysis.R",
-            "target": "satisfactionAge.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "satisfactionGender",
                     "type": "png"
                 }
@@ -206,6 +196,16 @@
             ],
             "source": "Exploratory_Data_Analysis.R",
             "target": "satisfactionPriceSensitivity.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionAge",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "satisfactionAge.png"
         }
     ],
     "nodes": [
@@ -285,6 +285,6 @@
             "name": "satisfactionPriceSensitivity.png"
         }
     ],
-    "updated_at": "2018-11-01 15:42:19",
+    "updated_at": "2018-11-01 15:48:52",
     "url": "https://github.com/fall2018-saltz/team55"
 }
