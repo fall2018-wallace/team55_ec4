@@ -5,7 +5,7 @@ df<-clean_data
 #using this for Age
 plot<-ggplot(df,aes(Age,Satisfaction))+geom_count()+facet_grid(southeast ~ .)
 plot+stat_summary(fun.y = "mean", colour = "red", size = 2, geom = "point")
-cor(age)
+cor(df$Age,df$Satisfaction)
 # As observed from the above plots, We can interpret that initially with increase in age, people's satisfaction raatings increase and then It starts decreasing after certain age
 # which says spproximately people in age range of 30 to 50 rate high on satisfaction
 # similar trends when comparing south east and other airlines
