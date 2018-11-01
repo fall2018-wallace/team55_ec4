@@ -4,8 +4,9 @@ dataframe <- clean_data
 dataframe$Satisfaction <- as.numeric(as.character(t(dataframe$Satisfaction)))
 dataframe$Satisfaction[is.na(dataframe$Satisfaction)] <- 3.5
 dataframe$southeast<-as.factor(trimws(df$Airline.Name)=='Southeast Airlines Co.')
+
 #Class variable
-ggplot(dataframe, aes(x = Class,y = Satisfaction))+facet_grid(southeast ~ .)+geom_count()+
+SatisfactionClass <- ggplot(dataframe, aes(x = Class,y = Satisfaction))+facet_grid(southeast ~ .)+geom_count()+
   stat_summary(aes(y=Satisfaction),fun.y="mean",size=2,colour='red',geom="point") 
 
 #For airlines other than Southeast, 
@@ -13,7 +14,7 @@ ggplot(dataframe, aes(x = Class,y = Satisfaction))+facet_grid(southeast ~ .)+geo
 #The same trend is followed by Southeast airlines
 
 #Day of month
-ggplot(dataframe , aes( x=Day.of.Month, y=Satisfaction)) + facet_grid(. ~ southeast)+
+SatisfactionDayOfMonth<- ggplot(dataframe , aes( x=Day.of.Month, y=Satisfaction)) + facet_grid(. ~ southeast)+
   stat_summary(fun.y = "mean", geom="col", color = "red", fill = "white")
 
 cor(dataframe$Satisfaction, dataframe$Day.of.Month)
@@ -26,7 +27,7 @@ cor(dataframe$Satisfaction, dataframe$Day.of.Month)
 #The correlation between the two variables is 1.3% which is not very high
 
 #Shopping amount at Airport
-ggplot(dataframe , aes( x=Shopping.Amount.at.Airport, y=Satisfaction)) + facet_grid(. ~ southeast)+
+SatisfactionShopping<-ggplot(dataframe , aes( x=Shopping.Amount.at.Airport, y=Satisfaction)) + facet_grid(. ~ southeast)+
   stat_summary_bin(fun.y = "mean", geom="col", binwidth = 100, color = "red", fill = "white")
 
 cor(dataframe$Shopping.Amount.at.Airport, dataframe$Satisfaction)
