@@ -196,6 +196,16 @@
             ],
             "source": "Exploratory_Data_Analysis.R",
             "target": "satisfactionYearOfFirstFlight.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionPriceSensitivity",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "satisfactionPriceSensitivity.png"
         }
     ],
     "nodes": [
@@ -275,6 +285,6 @@
             "name": "satisfactionPriceSensitivity.png"
         }
     ],
-    "updated_at": "2018-11-01 15:42:02",
+    "updated_at": "2018-11-01 15:42:19",
     "url": "https://github.com/fall2018-saltz/team55"
 }
