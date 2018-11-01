@@ -3,7 +3,7 @@ dataframe <- clean_data
 
 dataframe$Satisfaction <- as.numeric(as.character(t(dataframe$Satisfaction)))
 dataframe$Satisfaction[is.na(dataframe$Satisfaction)] <- 3.5
-dataframe$southeast<-as.factor(trimws(df$Airline.Name)=='Southeast Airlines Co.')
+dataframe$southeast<-as.factor(trimws(dataframe$Airline.Name)=='Southeast Airlines Co.')
 
 #Class variable
 SatisfactionClass <- ggplot(dataframe, aes(x = Class,y = Satisfaction))+facet_grid(southeast ~ .)+geom_count()+
