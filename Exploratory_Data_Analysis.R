@@ -56,4 +56,4 @@ class(df$Flight.date)
 df$Flight.date=as.Date(df$Flight.date, format="%m/%d/%Y")
 class(df$Flight.date)
 a=plot(df$Flight.date,df$Satisfaction)
-
+a
