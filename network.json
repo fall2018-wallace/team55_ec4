@@ -368,8 +368,11 @@
         },
         {
             "name": "satisfactionloyaltycards.png"
+        },
+        {
+            "name": "SatisfactionEatingAndDrinking.png"
         }
     ],
-    "updated_at": "2018-11-01 16:18:46",
+    "updated_at": "2018-11-01 16:19:24",
     "url": "https://github.com/fall2018-saltz/team55"
 }
