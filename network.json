@@ -293,10 +293,12 @@
             "name": "Exploratory_Data_Analysis3.R"
         },
         {
-            "desc": "",
-            "name": "Exploratory_Data_Analysis5.R"
+            "assigned_to": "not assigned",
+            "desc": "Visualization of columns from 19-23.",
+            "name": "Exploratory_Data_Analysis5.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-11-01 16:09:06",
+    "updated_at": "2018-11-01 16:09:26",
     "url": "https://github.com/fall2018-saltz/team55"
 }
