@@ -3,7 +3,7 @@ library(ggplot2)
 library(dplyr)
 df<-clean_data
 #using this for Age
-satisfactionAge<-ggplot(df,aes(Age,Satisfaction))+geom_count()+facet_grid(southeast ~ .)+stat_summary(aes(y=Satisfaction),fun.y = "mean", colour = "red", size = 2, geom = "point")
+satisfactionAge<-ggplot(df,aes(Age,Satisfaction))+geom_count()+facet_grid(southeast ~ .)+stat_summary(aes(y=Satisfaction),fun.y = "mean", colour = "red", size = 2, geom = "point")+geom_boxplot()
 cor(df$Age,df$Satisfaction)
 # As observed from the above plots, We can interpret that initially with increase in age, people's satisfaction raatings increase and then It starts decreasing after certain age
 # which says spproximately people in age range of 30 to 50 rate high on satisfaction
