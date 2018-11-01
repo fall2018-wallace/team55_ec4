@@ -150,22 +150,62 @@
         {
             "ports": [
                 {
-                    "output": "plot1",
+                    "output": "a",
                     "type": "png"
                 }
             ],
             "source": "Exploratory_Data_Analysis.R",
-            "target": "plot1.png"
+            "target": "FD1.png"
         },
         {
             "ports": [
                 {
-                    "output": "plot2",
+                    "output": "satisfactionAirlineStatus",
                     "type": "png"
                 }
             ],
             "source": "Exploratory_Data_Analysis.R",
-            "target": "plot2.png"
+            "target": "satisfactionAirlineStatus.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionAge",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "satisfactionAge.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionGender",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "satisfactionGender.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionYearOfFirstFlight",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "satisfactionYearOfFirstFlight.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionPriceSensitivity",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "satisfactionPriceSensitivity.png"
         }
     ],
     "nodes": [
@@ -176,10 +216,10 @@
             "name": "evaluation_matrix.csv"
         },
         {
-            "name": "plot1.png"
+            "name": "satisfactionAirlineStatus.png"
         },
         {
-            "name": "plot2.png"
+            "name": "satisfactionAge.png"
         },
         {
             "assigned_to": "yash",
@@ -233,9 +273,18 @@
             "task_status": "not started"
         },
         {
-            "name": "plot9836.png"
+            "name": "satisfactionYearOfFirstFlight.png"
+        },
+        {
+            "name": "FD1.png"
+        },
+        {
+            "name": "satisfactionGender.png"
+        },
+        {
+            "name": "satisfactionPriceSensitivity.png"
         }
     ],
-    "updated_at": "2018-11-01 15:18:51",
+    "updated_at": "2018-11-01 15:42:19",
     "url": "https://github.com/fall2018-saltz/team55"
 }
