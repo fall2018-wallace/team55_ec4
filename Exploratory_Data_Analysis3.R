@@ -1,4 +1,5 @@
 
+library("ggplot2")
 dataframe <- clean_data
 
 dataframe$Satisfaction <- as.numeric(as.character(t(dataframe$Satisfaction)))
