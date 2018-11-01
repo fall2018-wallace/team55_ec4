@@ -55,5 +55,5 @@ df$Satisfaction=as.numeric((as.character((t(df$Satisfaction)))))
 class(df$Flight.date)
 df$Flight.date=as.Date(df$Flight.date, format="%m/%d/%Y")
 class(df$Flight.date)
-plot(df$Flight.date,df$Satisfaction)
+a=plot(df$Flight.date,df$Satisfaction)
 
