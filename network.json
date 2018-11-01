@@ -420,8 +420,11 @@
         },
         {
             "name": "satisfactionCancelled.png"
+        },
+        {
+            "name": "satisfactionFlightTime.png"
         }
     ],
-    "updated_at": "2018-11-01 16:29:16",
+    "updated_at": "2018-11-01 16:29:42",
     "url": "https://github.com/fall2018-saltz/team55"
 }
