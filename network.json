@@ -202,6 +202,16 @@
             ],
             "source": "cleaned_data.csv",
             "target": "model_generation1.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p1",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis2.R",
+            "target": "Satisfactionnumberofflights.png"
         }
     ],
     "nodes": [
@@ -308,6 +318,6 @@
             "name": "Satisfactionnumberofflights.png"
         }
     ],
-    "updated_at": "2018-11-01 16:15:47",
+    "updated_at": "2018-11-01 16:16:17",
     "url": "https://github.com/fall2018-saltz/team55"
 }
