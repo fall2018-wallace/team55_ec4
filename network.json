@@ -322,6 +322,16 @@
             ],
             "source": "Exploratory_Data_Analysis5.R",
             "target": "satisfactionDistance.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionArrivalGreater",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis5.R",
+            "target": "satisfactionArrivalGreater.png"
         }
     ],
     "nodes": [
@@ -461,6 +471,6 @@
             "name": "satisfactionArrivalGreater.png"
         }
     ],
-    "updated_at": "2018-11-01 16:38:00",
+    "updated_at": "2018-11-01 16:38:17",
     "url": "https://github.com/fall2018-saltz/team55"
 }
