@@ -276,16 +276,6 @@
         {
             "ports": [
                 {
-                    "output": "satisfactionDelay",
-                    "type": "png"
-                }
-            ],
-            "source": "Exploratory_Data_Analysis5.R",
-            "target": "satisfactionDelay.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "satisfactionArrivalDelay",
                     "type": "png"
                 }
@@ -453,9 +443,6 @@
             "name": "SatisfactionEatingAndDrinking.png"
         },
         {
-            "name": "satisfactionDelay.png"
-        },
-        {
             "name": "satisfactionArrivalDelay.png"
         },
         {
@@ -471,6 +458,6 @@
             "name": "satisfactionArrivalGreater.png"
         }
     ],
-    "updated_at": "2018-11-01 16:38:17",
+    "updated_at": "2018-11-01 16:38:39",
     "url": "https://github.com/fall2018-saltz/team55"
 }
