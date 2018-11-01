@@ -1,7 +1,16 @@
 
 raw_data<-data
-str(raw_data)
-length(is.na(raw_data$Arrival.Delay.in.Minutes))
+#str(raw_data)
+#head(raw_data)
 
-raw_data$Satisfaction <- as.numeric(raw_data$Satisfaction)
-cor(raw_data$Shopping.Amount.at.Airport, raw_data$Satisfaction)
+# This data has 28 variables  and 129889 observations
+# Satisfaction is the dependent variable and all the other columns are independent variables
+# The client is Southeast hence this project will have comparisons between Southeast 
+# and other providers
+# The date column will be converted into month and day of week to determine if time of
+# year and time of week have any significant effect on the Satisfaction
+
+# find unique values in each column to check for abnormal values
+sapply(raw_data,function(y)unique(y))
+
+
