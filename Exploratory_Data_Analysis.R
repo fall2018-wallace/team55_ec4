@@ -1,5 +1,6 @@
 
 library(ggplot)
+library(dplyr)
 df<-clean_data
 #using this for Age
 plot<-ggplot(df,aes(Age,Satisfaction))+geom_count()+facet_grid(southeast ~ .)
