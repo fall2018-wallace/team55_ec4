@@ -176,6 +176,16 @@
             ],
             "source": "Exploratory_Data_Analysis.R",
             "target": "satisfactionAge.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionGender",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "satisfactionGender.png"
         }
     ],
     "nodes": [
@@ -252,6 +262,6 @@
             "name": "satisfactionGender.png"
         }
     ],
-    "updated_at": "2018-11-01 15:39:42",
+    "updated_at": "2018-11-01 15:40:04",
     "url": "https://github.com/fall2018-saltz/team55"
 }
