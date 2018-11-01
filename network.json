@@ -426,8 +426,11 @@
         },
         {
             "name": "satisfactionDistance.png"
+        },
+        {
+            "name": "satisfactionArrivalGreater.png"
         }
     ],
-    "updated_at": "2018-11-01 16:30:18",
+    "updated_at": "2018-11-01 16:31:32",
     "url": "https://github.com/fall2018-saltz/team55"
 }
