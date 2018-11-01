@@ -175,7 +175,7 @@
                 }
             ],
             "source": "Exploratory_Data_Analysis.R",
-            "target": "plot2.png"
+            "target": "satisfactionAge.png"
         }
     ],
     "nodes": [
@@ -189,7 +189,7 @@
             "name": "satisfactionAirlineStatus.png"
         },
         {
-            "name": "plot2.png"
+            "name": "satisfactionAge.png"
         },
         {
             "assigned_to": "yash",
@@ -249,6 +249,6 @@
             "name": "FD1.png"
         }
     ],
-    "updated_at": "2018-11-01 15:38:58",
+    "updated_at": "2018-11-01 15:39:13",
     "url": "https://github.com/fall2018-saltz/team55"
 }
