@@ -200,7 +200,7 @@
         {
             "ports": [
                 {
-                    "output": "satisfactionAge",
+                    "output": "plot",
                     "type": "png"
                 }
             ],
@@ -285,6 +285,6 @@
             "name": "satisfactionPriceSensitivity.png"
         }
     ],
-    "updated_at": "2018-11-01 15:48:52",
+    "updated_at": "2018-11-01 15:52:29",
     "url": "https://github.com/fall2018-saltz/team55"
 }
