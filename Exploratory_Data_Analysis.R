@@ -16,7 +16,7 @@ cor(df$Satisfaction,as.numeric(df$Airline.Status))
 #similar trends when comapring southeast and other airlines
 
 #using this for gender
-satisfactionGender<-ggplot(df,aes(Gender,Satisfaction))+facet_grid(southeast ~ .)+geom_count()+stat_summary(aes(y=Satisfaction,fill=southeast),fun.y="mean",size=2,colour='red',geom="point")
+satisfactionGender<-ggplot(df,aes(Gender,Satisfaction))+facet_grid(southeast ~ .)+geom_count()+stat_summary(aes(y=Satisfaction),fun.y="mean",size=2,colour='red',geom="point")
 cor(df$Satisfaction,as.numeric(df$Gender))
 #similar trends when comparing south east and other airlines
 
