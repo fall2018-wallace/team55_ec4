@@ -186,6 +186,16 @@
             ],
             "source": "Exploratory_Data_Analysis.R",
             "target": "satisfactionGender.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionYearOfFirstFlight",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis.R",
+            "target": "plot9836.png"
         }
     ],
     "nodes": [
@@ -262,6 +272,6 @@
             "name": "satisfactionGender.png"
         }
     ],
-    "updated_at": "2018-11-01 15:40:04",
+    "updated_at": "2018-11-01 15:41:10",
     "url": "https://github.com/fall2018-saltz/team55"
 }
