@@ -216,6 +216,16 @@
             ],
             "source": "cleaned_data.csv",
             "target": "Exploratory_Data_Analysis2.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatisfactionShopping",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis3.R",
+            "target": "SatisfactionShopping.png"
         }
     ],
     "nodes": [
@@ -316,6 +326,6 @@
             "name": "SatisfactionShopping.png"
         }
     ],
-    "updated_at": "2018-11-01 16:12:24",
+    "updated_at": "2018-11-01 16:12:43",
     "url": "https://github.com/fall2018-saltz/team55"
 }
