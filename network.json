@@ -206,6 +206,16 @@
             ],
             "source": "cleaned_data.csv",
             "target": "Exploratory_Data_Analysis3.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "Exploratory_Data_Analysis2.R"
         }
     ],
     "nodes": [
@@ -285,12 +295,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "eashani",
             "desc": "",
-            "name": "Exploratory_Data_Analysis2.R"
+            "name": "Exploratory_Data_Analysis2.R",
+            "task_status": "in progress"
         },
         {
+            "assigned_to": "achandir",
             "desc": "",
-            "name": "Exploratory_Data_Analysis3.R"
+            "name": "Exploratory_Data_Analysis3.R",
+            "task_status": "in progress"
         },
         {
             "assigned_to": "rohanmahajan",
@@ -299,6 +313,6 @@
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-11-01 16:09:33",
+    "updated_at": "2018-11-01 16:12:03",
     "url": "https://github.com/fall2018-saltz/team55"
 }
