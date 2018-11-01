@@ -30,6 +30,6 @@ cor(df$Flight.time.in.minutes,df$Satisfaction)
 satisfactionDistance<-ggplot(df,aes(Flight.Distance,Satisfaction))+geom_count()+facet_grid(southeast ~ .)+stat_summary(aes(y=Satisfaction),fun.y = "mean", colour = "red", size = 2, geom = "point")
 cor(df$Flight.Distance,df$Satisfaction)
 
-
+#In this plot, it is observed that the customer satisfaction is lower than the arrival delay which is greater than 5 minutes. 
 satisfactionArrivalGreater<-ggplot(df,aes(Arrival.Delay.greater.5.Mins,Satisfaction))+geom_count()+facet_grid(southeast ~ .)+stat_summary(aes(y=Satisfaction),fun.y = "mean", colour = "red", size = 2, geom = "point")
 cor(df$Arrival.Delay.greater.5.Mins,df$Satisfaction)
