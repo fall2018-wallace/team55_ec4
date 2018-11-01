@@ -198,7 +198,12 @@
             "target": "satisfactionAge.png"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
             "source": "cleaned_data.csv",
             "target": "Exploratory_Data_Analysis3.R"
         }
@@ -292,6 +297,6 @@
             "name": "Exploratory_Data_Analysis5.R"
         }
     ],
-    "updated_at": "2018-11-01 16:08:53",
+    "updated_at": "2018-11-01 16:09:06",
     "url": "https://github.com/fall2018-saltz/team55"
 }
