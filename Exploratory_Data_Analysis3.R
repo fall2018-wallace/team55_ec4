@@ -1,4 +1,9 @@
 
+dataframe <- clean_data
+
+dataframe$Satisfaction <- as.numeric(as.character(t(dataframe$Satisfaction)))
+dataframe$Satisfaction[is.na(dataframe$Satisfaction)] <- 3.5
+dataframe$southeast<-as.factor(trimws(df$Airline.Name)=='Southeast Airlines Co.')
 #Class variable
 ggplot(dataframe, aes(x = Class,y = Satisfaction))+facet_grid(southeast ~ .)+geom_count()+
   stat_summary(aes(y=Satisfaction),fun.y="mean",size=2,colour='red',geom="point") 
@@ -33,14 +38,14 @@ cor(dataframe$Shopping.Amount.at.Airport, dataframe$Satisfaction)
 #Shopping amount ranges from 0 to 600
 #with customers who spend 500-600 units rating the Satisfaction at 4 (max) and
 #customers who spend 400-500 units rating the satisfaction at around 3.2 (min)
-dataframe <- clean_data
+
 #This gives us an insight that customers do not spend more than 600 units on
 #Shopping at airport when they are a Southeast customer
 
 #The correlation between the two variables is 1.7% which is not very high
 
 #Eating and drinking at airport
-ggplot(dataframe , aes( x=Eating.and.Drinking.at.Airport, y=Satisfaction)) + facet_grid(. ~ southeast)+
+SatisfactionEatingAndDrinking <- ggplot(dataframe , aes( x=Eating.and.Drinking.at.Airport, y=Satisfaction)) + facet_grid(. ~ southeast)+
   stat_summary_bin(fun.y = "mean", geom="col", binwidth = 100, color = "red", fill = "white")
 
 cor(dataframe$Satisfaction, dataframe$Eating.and.Drinking.at.Airport)
