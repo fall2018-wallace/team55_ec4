@@ -212,6 +212,16 @@
             ],
             "source": "Exploratory_Data_Analysis2.R",
             "target": "Satisfactionnumberofflights.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p2",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis2.R",
+            "target": "Satisfactionflight.with.other.Airlines.png"
         }
     ],
     "nodes": [
@@ -321,6 +331,6 @@
             "name": "Satisfactionflight.with.other.Airlines.png"
         }
     ],
-    "updated_at": "2018-11-01 16:16:49",
+    "updated_at": "2018-11-01 16:17:01",
     "url": "https://github.com/fall2018-saltz/team55"
 }
