@@ -33,7 +33,7 @@ fD1=ggplot(sat, aes(x=week_days, y=Satisfaction))+facet_grid(.~southeast)+
 fD1=fD1+ geom_count()
 fD1=fD1+ ggtitle("Flight weekdays")
 fD1
-
+#the spread is more for southeast Airlines
 fD2=ggplot(sat, aes(x=Airline.Name, y=Satisfaction))
 fD2=fD2+ geom_point()
 fD2=fD2+theme(axis.text.x = element_text(angle = 90, hjust = 1))+
