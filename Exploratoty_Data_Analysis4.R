@@ -22,8 +22,6 @@ fD=ggplot(sat, aes(x=Flight.date, y=Satisfaction))+facet_grid(.~southeast)+
 fD=fD+ geom_line()
 fD=fD+ ggtitle("Flight Date")
 fD
-
-
 #as plotting the whole date has no meaning,
 #plot it with day off the week_days
 sat$week_days=weekdays(sat$Flight.date)
@@ -34,6 +32,7 @@ fD1=fD1+ geom_count()
 fD1=fD1+ ggtitle("Flight weekdays")
 fD1
 #the spread is more for southeast Airlines
+#also few values fall near Satisfaction 3 and below
 fD2=ggplot(sat, aes(x=Airline.Name, y=Satisfaction))
 fD2=fD2+ geom_point()
 fD2=fD2+theme(axis.text.x = element_text(angle = 90, hjust = 1))+
