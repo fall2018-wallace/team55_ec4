@@ -26,14 +26,14 @@ fD
 #plot it with day off the week_days
 sat$week_days=weekdays(sat$Flight.date)
 #day of the month is already present as a variable
-
+#the spread is more for southeast Airlines
+#also few values fall near Satisfaction 3 and below
 fD1=ggplot(sat, aes(x=week_days, y=Satisfaction))+facet_grid(.~southeast)+
   stat_summary(fun.y="mean",geom="point", color ="red", size =2)+theme(axis.text.x = element_text(angle = 90, hjust = 1))
 fD1=fD1+ geom_count()
 fD1=fD1+ ggtitle("Flight weekdays")
 fD1
-#the spread is more for southeast Airlines
-#also few values fall near Satisfaction 3 and below
+
 
 fD2=ggplot(sat, aes(x=Airline.Name, y=Satisfaction))
 fD2=fD2+ geom_point()
