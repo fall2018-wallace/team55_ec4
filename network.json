@@ -382,6 +382,36 @@
             ],
             "source": "Exploratoty_Data_Analysis4.R",
             "target": "fD4.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "model_generation2.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "model_generation3.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "model_generation4.R"
         }
     ],
     "nodes": [
@@ -536,6 +566,6 @@
             "name": "fD4.png"
         }
     ],
-    "updated_at": "2018-11-02 01:25:00",
+    "updated_at": "2018-11-02 02:35:17",
     "url": "https://github.com/fall2018-saltz/team55"
 }
