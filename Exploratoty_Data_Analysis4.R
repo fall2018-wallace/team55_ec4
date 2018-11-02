@@ -26,6 +26,7 @@ fD
 
 #as plotting the whole date has no meaning,
 #plot it with day off the week_days
+sat$week_days=weekdays(sat$Flight.date)
 #day of the month is already present as a variable
 fD1=ggplot(sat, aes(x=week_days, y=Satisfaction))+facet_grid(.~southeast)+
   stat_summary(fun.y="mean",geom="point", color ="red", size =2)+theme(axis.text.x = element_text(angle = 90, hjust = 1))
