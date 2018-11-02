@@ -15,10 +15,10 @@ class(sat$Flight.date)
 
 #our major concentration is on southeast airline 
 sat$southeast<-as.factor(trimws(sat$Airline.Name)=='Southeast Airlines Co.')
-#plot the graph for Satisfaction Vs FlightDate
 
+#plot the graph for Satisfaction Vs FlightDate
 fD=ggplot(sat, aes(x=Flight.date, y=Satisfaction))+facet_grid(.~southeast)+
-  stat_summary(fun.y="mean",geom="point", color ="red", size =2)
+ stat_summary(fun.y="mean",geom="point", color ="red", size =2)
 fD=fD+ geom_line(aes(color = Flight.date))
 fD=fD+ ggtitle("Flight Date")
 fD
