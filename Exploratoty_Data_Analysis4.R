@@ -23,3 +23,11 @@ fD=fD+ geom_line(aes(color = Flight.date))
 fD=fD+ ggtitle("Flight Date")
 fD
 
+#as plotting the whole date has no meaning,
+fD1=ggplot(sat, aes(x=week_days, y=Satisfaction))+facet_grid(.~southeast)+
+  stat_summary(fun.y="mean",geom="point", color ="red", size =2)+theme(axis.text.x = element_text(angle = 90, hjust = 1))
+fD1=fD1+ geom_count()
+
+fD1=fD1+ ggtitle("Flight weekdays")
+fD1
+
