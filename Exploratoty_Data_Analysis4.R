@@ -23,6 +23,7 @@ fD=fD+ geom_line()
 fD=fD+ ggtitle("Flight Date")
 fD
 
+
 #as plotting the whole date has no meaning,
 #plot it with day off the week_days
 #day of the month is already present as a variable
