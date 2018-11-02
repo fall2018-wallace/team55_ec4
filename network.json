@@ -322,6 +322,16 @@
             ],
             "source": "Exploratory_Data_Analysis5.R",
             "target": "satisfactionArrivalGreater.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "Exploratoty_Data_Analysis4.R"
         }
     ],
     "nodes": [
@@ -464,6 +474,6 @@
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-11-02 00:52:17",
+    "updated_at": "2018-11-02 00:54:09",
     "url": "https://github.com/fall2018-saltz/team55"
 }
