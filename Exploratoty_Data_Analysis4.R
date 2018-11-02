@@ -51,6 +51,7 @@ fD3=fD3+ geom_point()
 fD3=fD3+ ggtitle("Scheduled departure hour")
 fD3
 #the graph is more spread for southeast Airlines
+#few of them lead to Satisfaction 3
 
 fD4=ggplot(sat, aes(x=Departure.Delay.in.Minutes, y=Satisfaction))+facet_grid(.~southeast)+
   stat_summary(fun.y="mean",geom="point", color ="red", size =2)
