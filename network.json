@@ -332,6 +332,56 @@
             ],
             "source": "cleaned_data.csv",
             "target": "Exploratoty_Data_Analysis4.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "fD",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratoty_Data_Analysis4.R",
+            "target": "fD.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "fD1",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratoty_Data_Analysis4.R",
+            "target": "fD1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "fD3",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratoty_Data_Analysis4.R",
+            "target": "fD3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "fD2",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratoty_Data_Analysis4.R",
+            "target": "fD2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "fD4",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratoty_Data_Analysis4.R",
+            "target": "fD4.png"
         }
     ],
     "nodes": [
@@ -394,9 +444,6 @@
         },
         {
             "name": "satisfactionYearOfFirstFlight.png"
-        },
-        {
-            "name": "FD1.png"
         },
         {
             "name": "satisfactionGender.png"
@@ -471,9 +518,24 @@
             "assigned_to": "yash",
             "desc": "EDA on few variables",
             "name": "Exploratoty_Data_Analysis4.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
+        },
+        {
+            "name": "fD.png"
+        },
+        {
+            "name": "fD1.png"
+        },
+        {
+            "name": "fD3.png"
+        },
+        {
+            "name": "fD2.png"
+        },
+        {
+            "name": "fD4.png"
         }
     ],
-    "updated_at": "2018-11-02 00:54:09",
+    "updated_at": "2018-11-02 01:25:00",
     "url": "https://github.com/fall2018-saltz/team55"
 }
