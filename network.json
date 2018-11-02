@@ -396,9 +396,6 @@
             "name": "satisfactionYearOfFirstFlight.png"
         },
         {
-            "name": "FD1.png"
-        },
-        {
             "name": "satisfactionGender.png"
         },
         {
@@ -478,6 +475,6 @@
             "name": "fD.R"
         }
     ],
-    "updated_at": "2018-11-02 01:09:12",
+    "updated_at": "2018-11-02 01:09:21",
     "url": "https://github.com/fall2018-saltz/team55"
 }
