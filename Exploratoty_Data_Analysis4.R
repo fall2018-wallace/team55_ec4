@@ -59,5 +59,4 @@ fD4=ggplot(sat, aes(x=Departure.Delay.in.Minutes, y=Satisfaction))+facet_grid(.~
 fD4=fD4+geom_count()
 fD4=fD4+ ggtitle("Departure delay")
 fD4
-#all the departure delays are below 500 Minutes for southeast Airlines
 #the rest of Satisfaction seems similar for all Airlines
