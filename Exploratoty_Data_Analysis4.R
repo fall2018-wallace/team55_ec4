@@ -13,6 +13,7 @@ class(sat$Flight.date)
 sat$Flight.date=as.Date(sat$Flight.date, format="%m/%d/%Y")
 class(sat$Flight.date)
 
+#our major concentration is on southeast airline 
 sat$southeast<-as.factor(trimws(sat$Airline.Name)=='Southeast Airlines Co.')
 #plot the graph for Satisfaction Vs FlightDate
 
