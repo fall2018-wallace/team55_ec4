@@ -11,39 +11,6 @@
         {
             "ports": [
                 {
-                    "input": "data",
-                    "output": "data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Exploratory_Data_Analysis.R",
-            "target": "model_generation1.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "data",
-                    "output": "data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Exploratory_Data_Analysis.R",
-            "target": "model_generation2.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "data",
-                    "output": "data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Exploratory_Data_Analysis.R",
-            "target": "model_generation3.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "model1",
                     "output": "model1",
                     "type": "r_obj"
@@ -87,17 +54,6 @@
         {
             "ports": [
                 {
-                    "input": "data",
-                    "output": "data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Exploratory_Data_Analysis.R",
-            "target": "model_generation4.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "model4",
                     "output": "model4",
                     "type": "r_obj"
@@ -135,7 +91,7 @@
                 }
             ],
             "source": "cleaned_data.csv",
-            "target": "Exploratory_Data_Analysis.R"
+            "target": "Exploratory_Data_Analysis1.R"
         },
         {
             "ports": [
@@ -150,22 +106,232 @@
         {
             "ports": [
                 {
-                    "output": "plot1",
+                    "output": "satisfactionAirlineStatus",
                     "type": "png"
                 }
             ],
-            "source": "Exploratory_Data_Analysis.R",
-            "target": "plot1.png"
+            "source": "Exploratory_Data_Analysis1.R",
+            "target": "satisfactionAirlineStatus.png"
         },
         {
             "ports": [
                 {
-                    "output": "plot2",
+                    "output": "satisfactionGender",
                     "type": "png"
                 }
             ],
-            "source": "Exploratory_Data_Analysis.R",
-            "target": "plot2.png"
+            "source": "Exploratory_Data_Analysis1.R",
+            "target": "satisfactionGender.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionYearOfFirstFlight",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis1.R",
+            "target": "satisfactionYearOfFirstFlight.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionPriceSensitivity",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis1.R",
+            "target": "satisfactionPriceSensitivity.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionAge",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis1.R",
+            "target": "satisfactionAge.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "Exploratory_Data_Analysis3.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "Exploratory_Data_Analysis2.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatisfactionShopping",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis3.R",
+            "target": "SatisfactionShopping.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatisfactionClass",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis3.R",
+            "target": "SatisfactionClass.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "model_generation1.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p1",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis2.R",
+            "target": "Satisfactionnumberofflights.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p2",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis2.R",
+            "target": "Satisfactionflight.with.other.Airlines.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p3",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis2.R",
+            "target": "Typeoftravelsatisfaction.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatisfactionDayOfMonth",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis3.R",
+            "target": "SatisfactionDayOfMonth.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p4",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis2.R",
+            "target": "satisfactionloyaltycards.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatisfactionEatingAndDrinking",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis3.R",
+            "target": "SatisfactionEatingAndDrinking.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "Exploratory_Data_Analysis5.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionArrivalDelay",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis5.R",
+            "target": "satisfactionArrivalDelay.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionCancelled",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis5.R",
+            "target": "satisfactionCancelled.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionFlightTime",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis5.R",
+            "target": "satisfactionFlightTime.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionDistance",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis5.R",
+            "target": "satisfactionDistance.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionArrivalGreater",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis5.R",
+            "target": "satisfactionArrivalGreater.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "Exploratoty_Data_Analysis4.R"
         }
     ],
     "nodes": [
@@ -176,10 +342,10 @@
             "name": "evaluation_matrix.csv"
         },
         {
-            "name": "plot1.png"
+            "name": "satisfactionAirlineStatus.png"
         },
         {
-            "name": "plot2.png"
+            "name": "satisfactionAge.png"
         },
         {
             "assigned_to": "yash",
@@ -191,12 +357,6 @@
             "assigned_to": "jkachhadia",
             "desc": "Remove redundant columns, handle missing data, transform data",
             "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "achandir",
-            "desc": "Descriptive analysis of data using graphs and visualizations and do diagnostic analysis to gain insights",
-            "name": "Exploratory_Data_Analysis.R",
             "task_status": "in progress"
         },
         {
@@ -233,9 +393,87 @@
             "task_status": "not started"
         },
         {
-            "name": "plot9836.png"
+            "name": "satisfactionYearOfFirstFlight.png"
+        },
+        {
+            "name": "FD1.png"
+        },
+        {
+            "name": "satisfactionGender.png"
+        },
+        {
+            "name": "satisfactionPriceSensitivity.png"
+        },
+        {
+            "assigned_to": "jkachhadia",
+            "desc": "Descriptive analysis of data using graphs and visualizations and do diagnostic analysis to gain insights",
+            "name": "Exploratory_Data_Analysis1.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "eashani",
+            "desc": "",
+            "name": "Exploratory_Data_Analysis2.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "",
+            "name": "Exploratory_Data_Analysis3.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "Visualization of columns from 19-23.",
+            "name": "Exploratory_Data_Analysis5.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "SatisfactionShopping.png"
+        },
+        {
+            "name": "SatisfactionClass.png"
+        },
+        {
+            "name": "Satisfactionnumberofflights.png"
+        },
+        {
+            "name": "Satisfactionflight.with.other.Airlines.png"
+        },
+        {
+            "name": "Typeoftravelsatisfaction.png"
+        },
+        {
+            "name": "SatisfactionDayOfMonth.png"
+        },
+        {
+            "name": "satisfactionloyaltycards.png"
+        },
+        {
+            "name": "SatisfactionEatingAndDrinking.png"
+        },
+        {
+            "name": "satisfactionArrivalDelay.png"
+        },
+        {
+            "name": "satisfactionCancelled.png"
+        },
+        {
+            "name": "satisfactionFlightTime.png"
+        },
+        {
+            "name": "satisfactionDistance.png"
+        },
+        {
+            "name": "satisfactionArrivalGreater.png"
+        },
+        {
+            "assigned_to": "yash",
+            "desc": "EDA on few variables",
+            "name": "Exploratoty_Data_Analysis4.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-11-01 15:18:51",
+    "updated_at": "2018-11-02 00:54:09",
     "url": "https://github.com/fall2018-saltz/team55"
 }
