@@ -35,6 +35,7 @@ fD1=fD1+ geom_count()
 fD1=fD1+ ggtitle("Flight weekdays")
 fD1
 #the Satisfaction for southeast is more on tuesdays
+#the remaining are almost same for all days
 
 fD2=ggplot(sat, aes(x=Airline.Name, y=Satisfaction))
 fD2=fD2+ geom_point()
