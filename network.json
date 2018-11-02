@@ -362,6 +362,16 @@
             ],
             "source": "Exploratoty_Data_Analysis4.R",
             "target": "fD3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "fD2",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratoty_Data_Analysis4.R",
+            "target": "fD2.png"
         }
     ],
     "nodes": [
@@ -513,6 +523,6 @@
             "name": "fD2.png"
         }
     ],
-    "updated_at": "2018-11-02 01:24:10",
+    "updated_at": "2018-11-02 01:24:24",
     "url": "https://github.com/fall2018-saltz/team55"
 }
