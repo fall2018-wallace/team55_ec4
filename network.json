@@ -402,6 +402,16 @@
             ],
             "source": "cleaned_data.csv",
             "target": "model_generation3.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "model_generation4.R"
         }
     ],
     "nodes": [
@@ -556,6 +566,6 @@
             "name": "fD4.png"
         }
     ],
-    "updated_at": "2018-11-02 02:35:04",
+    "updated_at": "2018-11-02 02:35:17",
     "url": "https://github.com/fall2018-saltz/team55"
 }
