@@ -43,7 +43,7 @@ fD2=fD2+theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   stat_summary(fun.y="mean",geom="point", color ="red", size =2)
 fD2=fD2+ ggtitle("Airline Satisfaction")
 fD2
-
+#the Satisfaction for different airlines is seen
 
 fD3=ggplot(sat, aes(x=sat$Scheduled.Departure.Hour, y=Satisfaction))+facet_grid(.~southeast)+
   stat_summary(fun.y="mean",geom="point", color ="red", size =2)
