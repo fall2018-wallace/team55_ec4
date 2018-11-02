@@ -34,3 +34,16 @@ fD1=fD1+ geom_count()
 fD1=fD1+ ggtitle("Flight weekdays")
 fD1
 
+fD2=ggplot(sat, aes(x=Airline.Name, y=Satisfaction))
+fD2=fD2+ geom_point()
+fD2=fD2+theme(axis.text.x = element_text(angle = 90, hjust = 1))+
+  stat_summary(fun.y="mean",geom="point", color ="red", size =2)
+fD2=fD2+ ggtitle("Airline Satisfaction")
+fD2
+
+
+fD3=ggplot(sat, aes(x=sat$Scheduled.Departure.Hour, y=Satisfaction))+facet_grid(.~southeast)+
+  stat_summary(fun.y="mean",geom="point", color ="red", size =2)
+fD3=fD3+ geom_point()
+fD3=fD3+ ggtitle("Scheduled departure hour")
+fD3
