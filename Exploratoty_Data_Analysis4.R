@@ -60,3 +60,4 @@ fD4=fD4+geom_count()
 fD4=fD4+ ggtitle("Departure delay")
 fD4
 #all the departure delays are below 500 Minutes for southeast Airlines
+#the rest of Satisfaction seems similar for all Airlines
