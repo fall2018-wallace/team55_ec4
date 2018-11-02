@@ -469,8 +469,12 @@
             "desc": "EDA on few variables",
             "name": "Exploratoty_Data_Analysis4.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "fD.R"
         }
     ],
-    "updated_at": "2018-11-02 01:09:32",
+    "updated_at": "2018-11-02 01:09:56",
     "url": "https://github.com/fall2018-saltz/team55"
 }
