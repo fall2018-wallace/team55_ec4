@@ -1,2 +1,2 @@
 
-model2<-'model2'
+data<-clean_data
