@@ -55,7 +55,7 @@ library(arules)
 library(arulesViz)
 data$southeast=as.factor(data$southeast)
 data$Year.of.First.Flight=as.factor(data$Year.of.First.Flight)
-data<-data.frame(sapply(data,as.factor)
+data<-data.frame(sapply(data,as.factor))
 str(data)
 dataX <- as(data,"transactions")
 
