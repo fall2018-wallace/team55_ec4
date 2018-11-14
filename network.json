@@ -412,6 +412,16 @@
             ],
             "source": "cleaned_data.csv",
             "target": "data_prep.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data_prep.R",
+            "target": "prep_data.csv"
         }
     ],
     "nodes": [
@@ -573,6 +583,6 @@
             "name": "prep_data.csv"
         }
     ],
-    "updated_at": "2018-11-14 20:26:11",
+    "updated_at": "2018-11-14 20:26:37",
     "url": "https://github.com/fall2018-saltz/team55"
 }
