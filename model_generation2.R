@@ -53,7 +53,7 @@ facna=addNA(data$Flight.time.in.minutes)
 levels(facna) <- c(levels(data$Flight.time.in.minutes), 'Not Available')
 data$Arrival.Delay.in.Minutes<-facna
 
-ibrary(arules)
+library(arules)
 library(arulesViz)
 data$southeast=as.factor(data$southeast)
 data$Year.of.First.Flight=as.factor(data$Year.of.First.Flight)
