@@ -42,3 +42,15 @@ data$Scheduled.Departure.Hour=as.factor(data$Scheduled.Departure.Hour)
 data$week_days=as.factor(data$week_days)
 data$month=as.factor(data$month)
 data=data[,-15]
+
+facna=addNA(data$Arrival.Delay.in.Minutes)
+levels(facna) <- c(levels(data$Arrival.Delay.in.Minutes), 'Not Available')
+data$Arrival.Delay.in.Minutes<-facna
+facna=addNA(data$Departure.Delay.in.Minutes)
+levels(facna) <- c(levels(data$Departure.Delay.in.Minutes), 'Not Available')
+data$Departure.Delay.in.Minutes<-facna
+facna=addNA(data$Flight.time.in.minutes)
+levels(facna) <- c(levels(data$Flight.time.in.minutes), 'Not Available')
+data$Arrival.Delay.in.Minutes<-facna
+data$Departure.Delay.in.Minutes=removeNA(data$Departure.Delay.in.Minutes)
+data$Flight.time.in.minutes=removeNA(data$Flight.time.in.minutes)
