@@ -1,2 +1,2 @@
 
-model <- lm(satisfaction~.,data=clean_data)
+model <- lm(Satisfaction~.,data=clean_data)
