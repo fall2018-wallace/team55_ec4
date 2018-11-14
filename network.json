@@ -196,16 +196,6 @@
         {
             "ports": [
                 {
-                    "input": "data",
-                    "type": "csv"
-                }
-            ],
-            "source": "cleaned_data.csv",
-            "target": "model_generation1.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "p1",
                     "type": "png"
                 }
@@ -386,32 +376,62 @@
         {
             "ports": [
                 {
-                    "input": "data",
+                    "input": "clean_data",
                     "type": "csv"
                 }
             ],
             "source": "cleaned_data.csv",
-            "target": "model_generation2.R"
+            "target": "data_prep.R"
         },
         {
             "ports": [
                 {
-                    "input": "data",
+                    "output": "clean_data",
                     "type": "csv"
                 }
             ],
-            "source": "cleaned_data.csv",
+            "source": "data_prep.R",
+            "target": "prep_data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "prep_data.csv",
+            "target": "model_generation1.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "prep_data.csv",
             "target": "model_generation3.R"
         },
         {
             "ports": [
                 {
-                    "input": "data",
+                    "input": "clean_data",
                     "type": "csv"
                 }
             ],
-            "source": "cleaned_data.csv",
+            "source": "prep_data.csv",
             "target": "model_generation4.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "prep_data.csv",
+            "target": "model_generation2.R"
         }
     ],
     "nodes": [
@@ -564,8 +584,15 @@
         },
         {
             "name": "fD4.png"
+        },
+        {
+            "desc": "",
+            "name": "data_prep.R"
+        },
+        {
+            "name": "prep_data.csv"
         }
     ],
-    "updated_at": "2018-11-02 02:35:17",
+    "updated_at": "2018-11-14 20:30:37",
     "url": "https://github.com/fall2018-saltz/team55"
 }
