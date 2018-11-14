@@ -322,6 +322,96 @@
             ],
             "source": "Exploratory_Data_Analysis5.R",
             "target": "satisfactionArrivalGreater.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "Exploratoty_Data_Analysis4.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "fD",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratoty_Data_Analysis4.R",
+            "target": "fD.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "fD1",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratoty_Data_Analysis4.R",
+            "target": "fD1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "fD3",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratoty_Data_Analysis4.R",
+            "target": "fD3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "fD2",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratoty_Data_Analysis4.R",
+            "target": "fD2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "fD4",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratoty_Data_Analysis4.R",
+            "target": "fD4.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "model_generation2.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "model_generation3.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "model_generation4.R"
         }
     ],
     "nodes": [
@@ -384,9 +474,6 @@
         },
         {
             "name": "satisfactionYearOfFirstFlight.png"
-        },
-        {
-            "name": "FD1.png"
         },
         {
             "name": "satisfactionGender.png"
@@ -456,8 +543,29 @@
         },
         {
             "name": "satisfactionArrivalGreater.png"
+        },
+        {
+            "assigned_to": "yash",
+            "desc": "EDA on few variables",
+            "name": "Exploratoty_Data_Analysis4.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "fD.png"
+        },
+        {
+            "name": "fD1.png"
+        },
+        {
+            "name": "fD3.png"
+        },
+        {
+            "name": "fD2.png"
+        },
+        {
+            "name": "fD4.png"
         }
     ],
-    "updated_at": "2018-11-01 16:38:39",
+    "updated_at": "2018-11-02 02:35:17",
     "url": "https://github.com/fall2018-saltz/team55"
 }
