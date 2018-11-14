@@ -52,8 +52,6 @@ data$Departure.Delay.in.Minutes<-facna
 facna=addNA(data$Flight.time.in.minutes)
 levels(facna) <- c(levels(data$Flight.time.in.minutes), 'Not Available')
 data$Arrival.Delay.in.Minutes<-facna
-data$Departure.Delay.in.Minutes=removeNA(data$Departure.Delay.in.Minutes)
-data$Flight.time.in.minutes=removeNA(data$Flight.time.in.minutes)
 
 ibrary(arules)
 library(arulesViz)
