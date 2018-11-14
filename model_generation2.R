@@ -54,3 +54,9 @@ levels(facna) <- c(levels(data$Flight.time.in.minutes), 'Not Available')
 data$Arrival.Delay.in.Minutes<-facna
 data$Departure.Delay.in.Minutes=removeNA(data$Departure.Delay.in.Minutes)
 data$Flight.time.in.minutes=removeNA(data$Flight.time.in.minutes)
+
+ibrary(arules)
+library(arulesViz)
+data$southeast=as.factor(data$southeast)
+data$Year.of.First.Flight=as.factor(data$Year.of.First.Flight)
+dataX <- as(data,"transactions")
