@@ -16,7 +16,6 @@ numbertoCategory<-function(vec){
   return(as.factor(vBuckets))
   
 }
-str(data)
 data$Age=numbertoCategory(data$Age)
 data$No.of.Flights.p.a.=numbertoCategory(data$No.of.Flights.p.a.)
 data$X..of.Flight.with.other.Airlines=numbertoCategory(data$X..of.Flight.with.other.Airlines)
@@ -56,6 +55,7 @@ library(arules)
 library(arulesViz)
 data$southeast=as.factor(data$southeast)
 data$Year.of.First.Flight=as.factor(data$Year.of.First.Flight)
+str(data)
 dataX <- as(data,"transactions")
 
 ruleset <- apriori(dataX, parameter=list(support = 0.3,confidence = 0.3))
