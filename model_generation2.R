@@ -29,8 +29,7 @@ data[data$Flight.cancelled=='Yes',]$Arrival.Delay.in.Minutes='NotAvailable'
 data[data$Flight.cancelled=='Yes',]$Departure.Delay.in.minutes='NotAvailable'
 data[data$Flight.cancelled=='Yes',]$Flight.time.in.Minutes='NotAvailable'
 data$Eating.and.Drinking.at.Airport=numbertoCategory(data$Eating.and.Drinking.at.Airport)
-str(data)
-quantile(data$Satisfaction)
+
 
 data$Satisfaction[data$Satisfaction>=4]="Satisfied"
 data$Satisfaction[data$Satisfaction<4]="Not Satisfied"
