@@ -400,16 +400,6 @@
                 }
             ],
             "source": "prep_data.csv",
-            "target": "model_generation3.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "prep_data.csv",
             "target": "model_generation4.R"
         },
         {
@@ -421,6 +411,16 @@
             ],
             "source": "prep_data.csv",
             "target": "model_generation2.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "prep_data.csv",
+            "target": "model_generation3.R"
         }
     ],
     "nodes": [
@@ -458,7 +458,7 @@
             "assigned_to": "eashani",
             "desc": "use appropriate algorithms to generate models for predictive analytics",
             "name": "model_generation3.R",
-            "task_status": "not started"
+            "task_status": "in progress"
         },
         {
             "assigned_to": "achandir",
@@ -581,9 +581,9 @@
             "assigned_to": "achandir",
             "desc": "use appropriate algorithms to generate models for predictive analytics",
             "name": "model_generation4.R",
-            "task_status": "not started"
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-15 02:58:59",
+    "updated_at": "2018-11-15 16:10:21",
     "url": "https://github.com/fall2018-saltz/team55"
 }
