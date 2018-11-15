@@ -6,4 +6,4 @@ lm(Satisfaction ~ Airline.Status + Age + Gender +
               Class +
              Scheduled.Departure.Hour +
              Departure.Delay.in.Minutes +
-             Arrival.Delay.greater.5.Mins + week_days, data = clean_data )
+             Arrival.Delay.greater.5.Mins, data = clean_data )
