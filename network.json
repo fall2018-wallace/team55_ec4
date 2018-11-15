@@ -410,7 +410,7 @@
                 }
             ],
             "source": "prep_data.csv",
-            "target": "model_generation2.R"
+            "target": "model_generation3.R"
         },
         {
             "ports": [
@@ -420,7 +420,7 @@
                 }
             ],
             "source": "prep_data.csv",
-            "target": "model_generation3.R"
+            "target": "model_generation2.R"
         }
     ],
     "nodes": [
@@ -584,6 +584,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-15 16:10:58",
+    "updated_at": "2018-11-15 16:27:06",
     "url": "https://github.com/fall2018-saltz/team55"
 }
