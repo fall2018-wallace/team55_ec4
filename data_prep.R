@@ -1,2 +1,2 @@
 
-model <- lm(Satisfaction~Airline Status,data=clean_data)
+model <- lm(Satisfaction~Airline.Status,data=clean_data)
