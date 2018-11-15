@@ -7,3 +7,5 @@ model4 <- lm(Satisfaction ~ Airline.Status + Age + Gender +
              Scheduled.Departure.Hour +
              Departure.Delay.in.Minutes +
              Arrival.Delay.greater.5.Mins, data = clean_data )
+             
+summary(model4)
