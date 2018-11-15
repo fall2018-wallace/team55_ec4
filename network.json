@@ -487,12 +487,6 @@
             "name": "satisfactionSurvey.csv"
         },
         {
-            "assigned_to": "jkachhadia",
-            "desc": "use appropriate algorithms to generate models for predictive analytics",
-            "name": "model_generation2.R",
-            "task_status": "not started"
-        },
-        {
             "name": "satisfactionYearOfFirstFlight.png"
         },
         {
@@ -586,13 +580,21 @@
             "name": "fD4.png"
         },
         {
+            "assigned_to": "eashani",
             "desc": "",
-            "name": "data_prep.R"
+            "name": "data_prep.R",
+            "task_status": "in progress"
         },
         {
             "name": "prep_data.csv"
+        },
+        {
+            "assigned_to": "jkachhadia",
+            "desc": "Association Rule Mining to generate most relevant rules for predicting that the customer is satisfied",
+            "name": "model_generation2.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-14 20:30:37",
+    "updated_at": "2018-11-15 00:40:20",
     "url": "https://github.com/fall2018-saltz/team55"
 }
