@@ -22,17 +22,6 @@
         {
             "ports": [
                 {
-                    "input": "model2",
-                    "output": "model2",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "model_generation2.R",
-            "target": "evaluation.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "model3",
                     "output": "model3",
                     "type": "r_obj"
@@ -411,16 +400,6 @@
                 }
             ],
             "source": "prep_data.csv",
-            "target": "model_generation3.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "prep_data.csv",
             "target": "model_generation4.R"
         },
         {
@@ -432,6 +411,16 @@
             ],
             "source": "prep_data.csv",
             "target": "model_generation2.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "prep_data.csv",
+            "target": "model_generation3.R"
         }
     ],
     "nodes": [
@@ -469,13 +458,7 @@
             "assigned_to": "eashani",
             "desc": "use appropriate algorithms to generate models for predictive analytics",
             "name": "model_generation3.R",
-            "task_status": "not started"
-        },
-        {
-            "assigned_to": "rohanmahajan",
-            "desc": "use appropriate algorithms to generate models for predictive analytics",
-            "name": "model_generation4.R",
-            "task_status": "not started"
+            "task_status": "in progress"
         },
         {
             "assigned_to": "achandir",
@@ -485,12 +468,6 @@
         },
         {
             "name": "satisfactionSurvey.csv"
-        },
-        {
-            "assigned_to": "jkachhadia",
-            "desc": "use appropriate algorithms to generate models for predictive analytics",
-            "name": "model_generation2.R",
-            "task_status": "not started"
         },
         {
             "name": "satisfactionYearOfFirstFlight.png"
@@ -586,13 +563,27 @@
             "name": "fD4.png"
         },
         {
+            "assigned_to": "eashani",
             "desc": "",
-            "name": "data_prep.R"
+            "name": "data_prep.R",
+            "task_status": "in progress"
         },
         {
             "name": "prep_data.csv"
+        },
+        {
+            "assigned_to": "jkachhadia",
+            "desc": "Association Rule Mining to generate most relevant rules for predicting that the customer is satisfied",
+            "name": "model_generation2.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "use appropriate algorithms to generate models for predictive analytics",
+            "name": "model_generation4.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-14 20:30:37",
+    "updated_at": "2018-11-15 16:10:58",
     "url": "https://github.com/fall2018-saltz/team55"
 }
