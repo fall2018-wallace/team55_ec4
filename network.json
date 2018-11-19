@@ -11,56 +11,12 @@
         {
             "ports": [
                 {
-                    "input": "data",
-                    "output": "data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Exploratory_Data_Analysis.R",
-            "target": "model_generation1.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "data",
-                    "output": "data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Exploratory_Data_Analysis.R",
-            "target": "model_generation2.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "data",
-                    "output": "data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Exploratory_Data_Analysis.R",
-            "target": "model_generation3.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "model1",
                     "output": "model1",
                     "type": "r_obj"
                 }
             ],
             "source": "model_generation1.R",
-            "target": "evaluation.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "model2",
-                    "output": "model2",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "model_generation2.R",
             "target": "evaluation.R"
         },
         {
@@ -87,17 +43,6 @@
         {
             "ports": [
                 {
-                    "input": "data",
-                    "output": "data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Exploratory_Data_Analysis.R",
-            "target": "model_generation4.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "model4",
                     "output": "model4",
                     "type": "r_obj"
@@ -105,31 +50,6 @@
             ],
             "source": "model_generation4.R",
             "target": "evaluation.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "data",
-                    "type": "png"
-                }
-            ],
-            "source": "Exploratory_Data_Analysis.R",
-            "target": "plot1.png"
-        },
-        {
-            "ports": [],
-            "source": "Exploratory_Data_Analysis.R",
-            "target": "plot2.png"
-        },
-        {
-            "ports": [
-                {
-                    "input": "data",
-                    "type": "csv"
-                }
-            ],
-            "source": "satisfactionSurvey.csv",
-            "target": "Understand_data.R"
         },
         {
             "ports": [
@@ -160,13 +80,350 @@
                 }
             ],
             "source": "cleaned_data.csv",
-            "target": "Exploratory_Data_Analysis.R"
+            "target": "Exploratory_Data_Analysis1.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "Understand_data.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionAirlineStatus",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis1.R",
+            "target": "satisfactionAirlineStatus.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionGender",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis1.R",
+            "target": "satisfactionGender.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionYearOfFirstFlight",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis1.R",
+            "target": "satisfactionYearOfFirstFlight.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionPriceSensitivity",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis1.R",
+            "target": "satisfactionPriceSensitivity.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionAge",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis1.R",
+            "target": "satisfactionAge.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "Exploratory_Data_Analysis3.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "Exploratory_Data_Analysis2.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatisfactionShopping",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis3.R",
+            "target": "SatisfactionShopping.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatisfactionClass",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis3.R",
+            "target": "SatisfactionClass.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p1",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis2.R",
+            "target": "Satisfactionnumberofflights.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p2",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis2.R",
+            "target": "Satisfactionflight.with.other.Airlines.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p3",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis2.R",
+            "target": "Typeoftravelsatisfaction.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatisfactionDayOfMonth",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis3.R",
+            "target": "SatisfactionDayOfMonth.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p4",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis2.R",
+            "target": "satisfactionloyaltycards.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatisfactionEatingAndDrinking",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis3.R",
+            "target": "SatisfactionEatingAndDrinking.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "Exploratory_Data_Analysis5.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionArrivalDelay",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis5.R",
+            "target": "satisfactionArrivalDelay.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionCancelled",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis5.R",
+            "target": "satisfactionCancelled.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionFlightTime",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis5.R",
+            "target": "satisfactionFlightTime.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionDistance",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis5.R",
+            "target": "satisfactionDistance.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionArrivalGreater",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis5.R",
+            "target": "satisfactionArrivalGreater.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "Exploratoty_Data_Analysis4.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "fD",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratoty_Data_Analysis4.R",
+            "target": "fD.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "fD1",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratoty_Data_Analysis4.R",
+            "target": "fD1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "fD3",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratoty_Data_Analysis4.R",
+            "target": "fD3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "fD2",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratoty_Data_Analysis4.R",
+            "target": "fD2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "fD4",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratoty_Data_Analysis4.R",
+            "target": "fD4.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "data_prep.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data_prep.R",
+            "target": "prep_data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "prep_data.csv",
+            "target": "model_generation1.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "prep_data.csv",
+            "target": "model_generation4.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "prep_data.csv",
+            "target": "model_generation3.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "prep_data.csv",
+            "target": "model_generation2.R"
         }
     ],
     "nodes": [
-        {
-            "name": "satisfactionSurvey.csv"
-        },
         {
             "name": "cleaned_data.csv"
         },
@@ -174,60 +431,159 @@
             "name": "evaluation_matrix.csv"
         },
         {
-            "assigned_to": "jkachhadia",
-            "desc": "Remove redundant columns, handle missing data, transform data",
-            "name": "clean.R",
-            "task_status": "proposed"
+            "name": "satisfactionAirlineStatus.png"
         },
         {
-            "name": "plot1.png"
-        },
-        {
-            "name": "plot2.png"
+            "name": "satisfactionAge.png"
         },
         {
             "assigned_to": "yash",
             "desc": "Define the possible questions to be answered. Explore and categorize the attributes of the data",
             "name": "Understand_data.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         },
         {
-            "assigned_to": "achandir",
-            "desc": "Descriptive analysis of data using graphs and visualizations and do diagnostic analysis to gain insights",
-            "name": "Exploratory_Data_Analysis.R",
-            "task_status": "proposed"
+            "assigned_to": "jkachhadia",
+            "desc": "Remove redundant columns, handle missing data, transform data",
+            "name": "clean.R",
+            "task_status": "in progress"
         },
         {
             "assigned_to": "rohanmahajan",
             "desc": "use appropriate algorithms to generate models for predictive analytics",
             "name": "model_generation1.R",
-            "task_status": "proposed"
-        },
-        {
-            "assigned_to": "jkachhadia",
-            "desc": "use appropriate algorithms to generate models for predictive analytics",
-            "name": "model_generation2.R",
-            "task_status": "proposed"
+            "task_status": "not started"
         },
         {
             "assigned_to": "eashani",
             "desc": "use appropriate algorithms to generate models for predictive analytics",
             "name": "model_generation3.R",
-            "task_status": "proposed"
-        },
-        {
-            "assigned_to": "rohanmahajan",
-            "desc": "use appropriate algorithms to generate models for predictive analytics",
-            "name": "model_generation4.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         },
         {
             "assigned_to": "achandir",
             "desc": "Validate and compare models for accuracy",
             "name": "evaluation.R",
-            "task_status": "proposed"
+            "task_status": "not started"
+        },
+        {
+            "name": "satisfactionSurvey.csv"
+        },
+        {
+            "name": "satisfactionYearOfFirstFlight.png"
+        },
+        {
+            "name": "satisfactionGender.png"
+        },
+        {
+            "name": "satisfactionPriceSensitivity.png"
+        },
+        {
+            "assigned_to": "jkachhadia",
+            "desc": "Descriptive analysis of data using graphs and visualizations and do diagnostic analysis to gain insights",
+            "name": "Exploratory_Data_Analysis1.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "eashani",
+            "desc": "",
+            "name": "Exploratory_Data_Analysis2.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "",
+            "name": "Exploratory_Data_Analysis3.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "Visualization of columns from 19-23.",
+            "name": "Exploratory_Data_Analysis5.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "SatisfactionShopping.png"
+        },
+        {
+            "name": "SatisfactionClass.png"
+        },
+        {
+            "name": "Satisfactionnumberofflights.png"
+        },
+        {
+            "name": "Satisfactionflight.with.other.Airlines.png"
+        },
+        {
+            "name": "Typeoftravelsatisfaction.png"
+        },
+        {
+            "name": "SatisfactionDayOfMonth.png"
+        },
+        {
+            "name": "satisfactionloyaltycards.png"
+        },
+        {
+            "name": "SatisfactionEatingAndDrinking.png"
+        },
+        {
+            "name": "satisfactionArrivalDelay.png"
+        },
+        {
+            "name": "satisfactionCancelled.png"
+        },
+        {
+            "name": "satisfactionFlightTime.png"
+        },
+        {
+            "name": "satisfactionDistance.png"
+        },
+        {
+            "name": "satisfactionArrivalGreater.png"
+        },
+        {
+            "assigned_to": "yash",
+            "desc": "EDA on few variables",
+            "name": "Exploratoty_Data_Analysis4.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "fD.png"
+        },
+        {
+            "name": "fD1.png"
+        },
+        {
+            "name": "fD3.png"
+        },
+        {
+            "name": "fD2.png"
+        },
+        {
+            "name": "fD4.png"
+        },
+        {
+            "assigned_to": "eashani",
+            "desc": "",
+            "name": "data_prep.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "prep_data.csv"
+        },
+        {
+            "assigned_to": "jkachhadia",
+            "desc": "Association Rule Mining to generate most relevant rules for predicting that the customer is satisfied",
+            "name": "model_generation2.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "use appropriate algorithms to generate models for predictive analytics",
+            "name": "model_generation4.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-16 15:51:35",
+    "updated_at": "2018-11-15 16:27:06",
     "url": "https://github.com/fall2018-saltz/team55"
 }
