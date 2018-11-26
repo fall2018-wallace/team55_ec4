@@ -365,16 +365,6 @@
         {
             "ports": [
                 {
-                    "input": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "cleaned_data.csv",
-            "target": "data_prep.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "clean_data",
                     "type": "csv"
                 }
@@ -389,38 +379,8 @@
                     "type": "csv"
                 }
             ],
-            "source": "prep_data.csv",
+            "source": "cleaned_data.csv",
             "target": "model_generation1.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "prep_data.csv",
-            "target": "model_generation4.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "prep_data.csv",
-            "target": "model_generation3.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "prep_data.csv",
-            "target": "model_generation2.R"
         }
     ],
     "nodes": [
@@ -584,6 +544,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-15 16:27:06",
+    "updated_at": "2018-11-26 17:52:52",
     "url": "https://github.com/fall2018-saltz/team55"
 }
