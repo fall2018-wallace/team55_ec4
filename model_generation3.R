@@ -8,5 +8,6 @@ happyCust <- as.factor(happyCust)
 clean_data1 <- cbind(clean_data,happyCust)
 clean_data1 <- clean_data1[,-c(1)]
 
-model3 <- glm(happyCust~Airline.Status+Age+Gender+Price.Sensitivity+No.of.Flights.p.a.+ X..of.Flight.with.other.Airlines+Type.of.Travel+Shopping.Amount.at.Airport+Class+Day.of.Month+Airline.Code+Orgin.City+Destination.City+Departure.Delay.in.Minutes+Arrival.Delay.in.Minutes+Arrival.Delay.greater.5.Mins+Eating.and.Drinking.at.Airport,data=clean_data1)
-summary(model3)
+#model3 <- glm(happyCust~Airline.Status+Age+Gender+Price.Sensitivity+No.of.Flights.p.a.+ X..of.Flight.with.other.Airlines+Type.of.Travel+Shopping.Amount.at.Airport+Class+Day.of.Month+Airline.Code+Orgin.City+Destination.City+Departure.Delay.in.Minutes+Arrival.Delay.in.Minutes+Arrival.Delay.greater.5.Mins+Eating.and.Drinking.at.Airport,data=clean_data1)
+#summary(model3)
+happyCust
