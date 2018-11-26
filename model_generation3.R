@@ -4,7 +4,7 @@ med <- median(clean_data$Satisfaction)
 happyCust[clean_data$Satisfaction>=med] <- 1
 happyCust[clean_data$Satisfaction<med] <- 0
 
-happyCust <- as.factor(happyCust)
+#happyCust <- as.factor(happyCust)
 clean_data1 <- cbind(clean_data,happyCust)
 clean_data1 <- clean_data1[,-c(1)]
 
