@@ -400,16 +400,6 @@
                 }
             ],
             "source": "cleaned_data.csv",
-            "target": "model_generation2.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "cleaned_data.csv",
             "target": "model_generation4.R"
         },
         {
@@ -421,6 +411,16 @@
             ],
             "source": "clean.R",
             "target": "clean_data_full.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data_full.csv",
+            "target": "model_generation2.R"
         }
     ],
     "nodes": [
@@ -587,6 +587,6 @@
             "name": "clean_data_full.csv"
         }
     ],
-    "updated_at": "2018-11-29 16:47:21",
+    "updated_at": "2018-11-29 16:48:20",
     "url": "https://github.com/fall2018-saltz/team55"
 }
