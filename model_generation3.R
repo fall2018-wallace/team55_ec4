@@ -16,6 +16,6 @@ clean_data1$Arrival.Delay.in.Minutes[is.na(clean_data1$Arrival.Delay.in.Minutes)
 clean_data1$Flight.time.in.minutes[is.na(clean_data1$Flight.time.in.minutes)] <- mean(clean_data1$Flight.time.in.minutes,na.rm=T)
 
 
-# origin city, destination, airline code don't affect happiness significantly
-model3 <- glm(happyCust~Airline.Status+Age+Gender+Price.Sensitivity+No.of.Flights.p.a.+ X..of.Flight.with.other.Airlines+Type.of.Travel+Shopping.Amount.at.Airport+Class+Day.of.Month+Departure.Delay.in.Minutes+Arrival.Delay.in.Minutes+Arrival.Delay.greater.5.Mins+Eating.and.Drinking.at.Airport+southeast,family="binomial",data=clean_data1)
+# origin city, destination, airline code, flights with other airlines don't affect happiness significantly
+model3 <- glm(happyCust~Airline.Status+Age+Gender+Price.Sensitivity+No.of.Flights.p.a.+ Type.of.Travel+Shopping.Amount.at.Airport+Class+Day.of.Month+Departure.Delay.in.Minutes+Arrival.Delay.in.Minutes+Arrival.Delay.greater.5.Mins+Eating.and.Drinking.at.Airport,family="binomial",data=clean_data1)
 summary(model3)
