@@ -57,7 +57,7 @@ data$southeast=as.factor(data$southeast)
 data$Year.of.First.Flight=as.factor(data$Year.of.First.Flight)
 data<-data.frame(sapply(data,as.factor))
 str(data)
-dataX <- as(data,"transactions")
+dataX <- as(data,'transactions')
 
 ruleset <- apriori(dataX, parameter=list(support = 0.3,confidence = 0.3))
 #inspect to see the ruleset
