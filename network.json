@@ -22,17 +22,6 @@
         {
             "ports": [
                 {
-                    "input": "model2",
-                    "output": "model2",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "model_generation2.R",
-            "target": "evaluation.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "model3",
                     "output": "model3",
                     "type": "r_obj"
@@ -376,16 +365,6 @@
         {
             "ports": [
                 {
-                    "input": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "cleaned_data.csv",
-            "target": "data_prep.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "clean_data",
                     "type": "csv"
                 }
@@ -400,7 +379,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "prep_data.csv",
+            "source": "cleaned_data.csv",
             "target": "model_generation1.R"
         },
         {
@@ -410,7 +389,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "prep_data.csv",
+            "source": "cleaned_data.csv",
             "target": "model_generation3.R"
         },
         {
@@ -420,8 +399,8 @@
                     "type": "csv"
                 }
             ],
-            "source": "prep_data.csv",
-            "target": "model_generation4.R"
+            "source": "cleaned_data.csv",
+            "target": "model_generation2.R"
         },
         {
             "ports": [
@@ -430,8 +409,8 @@
                     "type": "csv"
                 }
             ],
-            "source": "prep_data.csv",
-            "target": "model_generation2.R"
+            "source": "cleaned_data.csv",
+            "target": "model_generation4.R"
         }
     ],
     "nodes": [
@@ -469,13 +448,7 @@
             "assigned_to": "eashani",
             "desc": "use appropriate algorithms to generate models for predictive analytics",
             "name": "model_generation3.R",
-            "task_status": "not started"
-        },
-        {
-            "assigned_to": "rohanmahajan",
-            "desc": "use appropriate algorithms to generate models for predictive analytics",
-            "name": "model_generation4.R",
-            "task_status": "not started"
+            "task_status": "in progress"
         },
         {
             "assigned_to": "achandir",
@@ -593,8 +566,14 @@
             "desc": "Association Rule Mining to generate most relevant rules for predicting that the customer is satisfied",
             "name": "model_generation2.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "use appropriate algorithms to generate models for predictive analytics",
+            "name": "model_generation4.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-15 00:40:20",
+    "updated_at": "2018-11-26 17:55:07",
     "url": "https://github.com/fall2018-saltz/team55"
 }
