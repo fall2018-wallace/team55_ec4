@@ -53,6 +53,7 @@ data$Arrival.Delay.in.Minutes<-facna
 
 library(arules)
 library(arulesViz)
+library(method)
 data$southeast=as.factor(data$southeast)
 data$Year.of.First.Flight=as.factor(data$Year.of.First.Flight)
 data<-data.frame(sapply(data,as.factor))
