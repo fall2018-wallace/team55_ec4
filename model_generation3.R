@@ -15,3 +15,4 @@ clean_data1 <- clean_data1[,-c(1)]
 clean_data1$Departure.Delay.in.Minutes[is.na(clean_data1$Departure.Delay.in.Minutes)] <- mean(clean_data1$Departure.Delay.in.Minutes,na.rm=T)
 clean_data1$Arrival.Delay.in.Minutes[is.na(clean_data1$Arrival.Delay.in.Minutes)] <- mean(clean_data1$Arrival.Delay.in.Minutes,na.rm=T)
 clean_data1$Flight.time.in.minutes[is.na(clean_data1$Departure.Delay.in.Minutes)] <- mean(clean_data1$Flight.time.in.minutes,na.rm=T)
+sapply(clean_data1,function(x) sum(is.na(x)))
