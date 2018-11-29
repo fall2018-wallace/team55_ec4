@@ -22,3 +22,4 @@ unique(clean_data$Satisfaction)
 sample = sample.split(clean_data$Age, SplitRatio = .67)
 train = subset(clean_data, sample == TRUE)
 test  = subset(clean_data, sample == FALSE)
+clean_data = train
