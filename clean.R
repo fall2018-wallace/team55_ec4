@@ -1,4 +1,5 @@
 
+library(caTools)
 clean_data<-raw_data
 
 # find unique values in each column to check for abnormal values
