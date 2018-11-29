@@ -17,5 +17,6 @@ clean_data1$Flight.time.in.minutes[is.na(clean_data1$Flight.time.in.minutes)] <-
 
 #model3 <- glm(happyCust~Airline.Status+Age+Gender+Price.Sensitivity+No.of.Flights.p.a.++southeast,family="binomial",data=clean_data1)
 #summary(model3)
-model3 <- glm(happyCust~Airline.Status+Age+Gender+Price.Sensitivity+No.of.Flights.p.a.+ X..of.Flight.with.other.Airlines+Type.of.Travel+Shopping.Amount.at.Airport+Class+Day.of.Month+Airline.Code+Departure.Delay.in.Minutes+Arrival.Delay.in.Minutes+Arrival.Delay.greater.5.Mins+Eating.and.Drinking.at.Airport,family="binomial",data=clean_data1)
+# origin city, destination, airline code
+model3 <- glm(happyCust~Airline.Status+Age+Gender+Price.Sensitivity+No.of.Flights.p.a.+ X..of.Flight.with.other.Airlines+Type.of.Travel+Shopping.Amount.at.Airport+Class+Day.of.Month+Departure.Delay.in.Minutes+Arrival.Delay.in.Minutes+Arrival.Delay.greater.5.Mins+Eating.and.Drinking.at.Airport,family="binomial",data=clean_data1)
 summary(model3)
