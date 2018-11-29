@@ -16,4 +16,4 @@ clean_data1$Departure.Delay.in.Minutes[is.na(clean_data1$Departure.Delay.in.Minu
 clean_data1$Arrival.Delay.in.Minutes[is.na(clean_data1$Arrival.Delay.in.Minutes)] <- mean(clean_data1$Arrival.Delay.in.Minutes,na.rm=T)
 clean_data1$Flight.time.in.minutes[is.na(clean_data1$Flight.time.in.minutes)] <- mean(clean_data1$Flight.time.in.minutes,na.rm=T)
 
-model3 <- glm(happyCust ~.,family=binomial(link='logit'),data=train)
+model3 <- glm(happyCust~.,family=binomial(link='logit'),data=clean_data1)
