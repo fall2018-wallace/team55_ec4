@@ -505,9 +505,6 @@
             "name": "fD4.png"
         },
         {
-            "name": "prep_data.csv"
-        },
-        {
             "name": "clean_data_full.csv"
         },
         {
@@ -571,6 +568,6 @@
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-11-29 16:58:30",
+    "updated_at": "2018-11-29 16:58:46",
     "url": "https://github.com/fall2018-saltz/team55"
 }
