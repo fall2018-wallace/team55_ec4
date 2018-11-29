@@ -411,6 +411,16 @@
             ],
             "source": "cleaned_data.csv",
             "target": "model_generation4.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data_full",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "clean_data_full.csv"
         }
     ],
     "nodes": [
@@ -572,8 +582,11 @@
             "desc": "use appropriate algorithms to generate models for predictive analytics",
             "name": "model_generation4.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "clean_data_full.csv"
         }
     ],
-    "updated_at": "2018-11-26 17:55:07",
+    "updated_at": "2018-11-29 16:47:21",
     "url": "https://github.com/fall2018-saltz/team55"
 }
