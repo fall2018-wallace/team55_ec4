@@ -12,4 +12,4 @@ clean_data1 <- clean_data1[,-c(1)]
 #summary(model3)
 
 sapply(clean_data1,function(x) sum(is.na(x)))
-sapply(clean_data1, function(x) length(unique(x)))
+#sapply(clean_data1, function(x) length(unique(x)))
