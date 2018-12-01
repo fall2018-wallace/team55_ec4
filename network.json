@@ -436,6 +436,16 @@
             ],
             "source": "model_generation3.R",
             "target": "evaluation.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data1",
+                    "type": "csv"
+                }
+            ],
+            "source": "model_generation3.R",
+            "target": "clean_data1.csv"
         }
     ],
     "nodes": [
@@ -599,6 +609,6 @@
             "name": "clean_data1.csv"
         }
     ],
-    "updated_at": "2018-12-01 17:39:37",
+    "updated_at": "2018-12-01 17:39:54",
     "url": "https://github.com/fall2018-saltz/team55"
 }
