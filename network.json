@@ -431,6 +431,16 @@
             ],
             "source": "test.csv",
             "target": "evaluation.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "evaluation.R"
         }
     ],
     "nodes": [
@@ -456,7 +466,7 @@
             "assigned_to": "achandir",
             "desc": "Validate and compare models for accuracy",
             "name": "evaluation.R",
-            "task_status": "not started"
+            "task_status": "in progress"
         },
         {
             "name": "satisfactionSurvey.csv"
@@ -591,6 +601,6 @@
             "name": "test.csv"
         }
     ],
-    "updated_at": "2018-12-01 17:09:22",
+    "updated_at": "2018-12-01 17:29:42",
     "url": "https://github.com/fall2018-saltz/team55"
 }
