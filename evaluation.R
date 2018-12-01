@@ -1,2 +1,3 @@
 
-logpred <- predict(model3,test,type="response")
+testdata <- test
+logpred <- predict(model3,testdata,type="response")
