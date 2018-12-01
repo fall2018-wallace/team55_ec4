@@ -1,2 +1,2 @@
 
-model_matrix<-'model_matrix'
+logpred <- predict(model3,test,type="response")
