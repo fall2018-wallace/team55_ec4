@@ -425,7 +425,11 @@
             "ports": [
                 {
                     "input": "model3",
-                    "output": "model3, clean_data",
+                    "output": "model3",
+                    "type": "r_obj"
+                },
+                {
+                    "output": "clean_data",
                     "type": "r_obj"
                 }
             ],
@@ -591,6 +595,6 @@
             "name": "test.csv"
         }
     ],
-    "updated_at": "2018-12-01 17:32:55",
+    "updated_at": "2018-12-01 17:33:54",
     "url": "https://github.com/fall2018-saltz/team55"
 }
