@@ -429,7 +429,8 @@
                     "type": "r_obj"
                 },
                 {
-                    "output": "clean_data",
+                    "input": "undefined",
+                    "output": "clean_data1",
                     "type": "r_obj"
                 }
             ],
@@ -595,6 +596,6 @@
             "name": "test.csv"
         }
     ],
-    "updated_at": "2018-12-01 17:33:54",
+    "updated_at": "2018-12-01 17:37:15",
     "url": "https://github.com/fall2018-saltz/team55"
 }
