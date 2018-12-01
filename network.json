@@ -405,17 +405,6 @@
         {
             "ports": [
                 {
-                    "input": "test",
-                    "output": "test",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "evaluation.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "cleaned_data",
                     "type": "csv"
                 }
@@ -577,8 +566,11 @@
             "desc": "",
             "name": "Exploratory_Data_Analysis3.R",
             "task_status": "completed"
+        },
+        {
+            "name": "test.csv"
         }
     ],
-    "updated_at": "2018-11-30 22:52:56",
+    "updated_at": "2018-12-01 17:08:24",
     "url": "https://github.com/fall2018-saltz/team55"
 }
