@@ -15,5 +15,6 @@ logtestdata$Flight.time.in.minutes[is.na(logtestdata$Flight.time.in.minutes)] <-
 logpred <- predict(model3,logtestdata,type="response")
 pos_or_neg <- ifelse(logpred > 0.5, 3, 2)
 happyCusttest <- factor(pos_or_neg)
-matchneg2 <- match(names3,ntext)
-matchnegwords2 <- counts[which(matchneg2!=0)]
+
+match1 <- match(happyCust,happyCusttest)
+#matchnegwords2 <- counts[which(matchneg2!=0)]
