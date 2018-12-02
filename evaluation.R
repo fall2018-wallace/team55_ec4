@@ -16,5 +16,6 @@ logpred <- predict(model3,logtestdata,type="response")
 pos_or_neg <- ifelse(logpred > 0.5, 3, 2)
 happyCusttest <- factor(pos_or_neg)
 
-match1 <- match(happyCust,happyCusttest)
-#matchnegwords2 <- counts[which(matchneg2!=0)]
+match1 <- match(happyCust,happyCusttest,nomatch=0)
+#matchnegwords2 <- happyCust[which(match!=0)]
+match1
