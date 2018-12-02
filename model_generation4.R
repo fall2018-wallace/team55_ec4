@@ -1,4 +1,5 @@
 
+clean_data <- cleaned_data
 model4 <- lm(Satisfaction ~ Airline.Status + Age + Gender +
            Price.Sensitivity + Year.of.First.Flight + No.of.Flights.p.a. +
               Type.of.Travel +
