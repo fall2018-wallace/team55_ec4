@@ -18,4 +18,4 @@ happyCusttest <- factor(pos_or_neg)
 
 match1 <- match(happyCust,happyCusttest,nomatch=0)
 #matchnegwords2 <- happyCust[which(match!=0)]
-match1
+unique(happyCust)
