@@ -1,4 +1,5 @@
 
+# evaluation of logistic regression model
 logtraindata <- clean_data1
 logtestdata <- test
 happyCust <- 1
@@ -19,6 +20,4 @@ happyCusttest <- factor(pos_or_neg)
 x <- table(happyCust,happyCusttest)
 error <- (x[1,1]+x[2,2])/sum(x)
 error
-#match1 <- match(happyCusttest,happyCust)
-#matchnegwords2 <- happyCust[which(match!=0)]
-#match1
+# 77% accuracy
