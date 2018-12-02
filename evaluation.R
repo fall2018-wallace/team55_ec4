@@ -12,11 +12,11 @@ logtestdata$Departure.Delay.in.Minutes[is.na(logtestdata$Departure.Delay.in.Minu
 logtestdata$Arrival.Delay.in.Minutes[is.na(logtestdata$Arrival.Delay.in.Minutes)] <- mean(logtestdata$Arrival.Delay.in.Minutes,na.rm=T)
 logtestdata$Flight.time.in.minutes[is.na(logtestdata$Flight.time.in.minutes)] <- mean(logtestdata$Flight.time.in.minutes,na.rm=T)
 
-logpred <- predict(model3,logtestdata,type="link")
-#pos_or_neg <- ifelse(logpred > 0.5, 3, 2)
+logpred <- predict(model3,logtestdata,type="response")
+pos_or_neg <- ifelse(logpred > 0.5, 3, 2)
 
-#happyCusttest <- factor(pos_or_neg)
-logpred
+happyCusttest <- factor(pos_or_neg)
+table(happyCust,happyCusttest)
 #match1 <- match(happyCusttest,happyCust)
 #matchnegwords2 <- happyCust[which(match!=0)]
 #match1
