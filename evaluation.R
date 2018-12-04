@@ -14,6 +14,7 @@ logtestdata$Arrival.Delay.in.Minutes[is.na(logtestdata$Arrival.Delay.in.Minutes)
 logtestdata$Flight.time.in.minutes[is.na(logtestdata$Flight.time.in.minutes)] <- mean(logtestdata$Flight.time.in.minutes,na.rm=T)
 
 logpred <- predict(model3,logtestdata,type="response")
+logpred
 pos_or_neg <- ifelse(logpred > 0.5, 3, 2)
 
 happyCusttest <- factor(pos_or_neg)
