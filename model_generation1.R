@@ -3,6 +3,8 @@ model1<-'model1'
 
 library(e1071)
 
+clean_data <- na.omit(clean_data)
+
 nb <- naiveBayes(Satisfaction ~ Airline.Status + Age + Gender +
            Price.Sensitivity + Year.of.First.Flight + No.of.Flights.p.a. +
               Type.of.Travel +
