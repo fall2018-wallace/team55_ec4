@@ -612,8 +612,11 @@
             "desc": "use appropriate algorithms to generate models for predictive analytics",
             "name": "model_generation1.R",
             "task_status": "completed"
+        },
+        {
+            "name": "categorical_data.csv"
         }
     ],
-    "updated_at": "2018-12-06 14:49:52",
+    "updated_at": "2018-12-06 19:34:47",
     "url": "https://github.com/fall2018-saltz/team55"
 }
