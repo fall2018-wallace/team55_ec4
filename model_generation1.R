@@ -14,3 +14,4 @@ nb <- naiveBayes(Satisfaction ~ Airline.Status + Age + Gender +
              
 
 summary(nb)
+nb
