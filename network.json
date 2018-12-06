@@ -22,17 +22,6 @@
         {
             "ports": [
                 {
-                    "input": "model3",
-                    "output": "model3",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "model_generation3.R",
-            "target": "evaluation.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "model_matrix",
                     "type": "csv"
                 }
@@ -385,16 +374,6 @@
         {
             "ports": [
                 {
-                    "input": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "cleaned_data.csv",
-            "target": "model_generation4.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "clean_data_full",
                     "type": "csv"
                 }
@@ -411,6 +390,67 @@
             ],
             "source": "clean_data_full.csv",
             "target": "model_generation2.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "cleaned_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "model_generation4.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "test",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "test.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "test",
+                    "type": "csv"
+                }
+            ],
+            "source": "test.csv",
+            "target": "evaluation.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data1",
+                    "type": "csv"
+                }
+            ],
+            "source": "model_generation3.R",
+            "target": "clean_data1.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "model3",
+                    "output": "model3",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "model_generation3.R",
+            "target": "evaluation.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data1",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data1.csv",
+            "target": "evaluation.R"
         }
     ],
     "nodes": [
@@ -436,7 +476,7 @@
             "assigned_to": "achandir",
             "desc": "Validate and compare models for accuracy",
             "name": "evaluation.R",
-            "task_status": "not started"
+            "task_status": "in progress"
         },
         {
             "name": "satisfactionSurvey.csv"
@@ -566,8 +606,14 @@
             "desc": "",
             "name": "Exploratory_Data_Analysis3.R",
             "task_status": "completed"
+        },
+        {
+            "name": "test.csv"
+        },
+        {
+            "name": "clean_data1.csv"
         }
     ],
-    "updated_at": "2018-11-29 16:58:46",
+    "updated_at": "2018-12-01 17:42:33",
     "url": "https://github.com/fall2018-saltz/team55"
 }
