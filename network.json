@@ -455,12 +455,12 @@
         {
             "ports": [
                 {
-                    "output": "data",
+                    "input": "data",
                     "type": "csv"
                 }
             ],
-            "source": "model_generation2.R",
-            "target": "datacat.csv"
+            "source": "clean_data_full.csv",
+            "target": "categorize_data.R"
         }
     ],
     "nodes": [
@@ -631,6 +631,6 @@
             "name": "categorize_data.R"
         }
     ],
-    "updated_at": "2018-12-06 19:51:55",
+    "updated_at": "2018-12-06 19:52:33",
     "url": "https://github.com/fall2018-saltz/team55"
 }
