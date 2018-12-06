@@ -25,3 +25,4 @@ nb <- naiveBayes(happyCust ~ Airline.Status + Age + Gender +
 summary(nb)
 nb
 
+predP <- predict(nbP, newdata = clean_data1, type = "class")
