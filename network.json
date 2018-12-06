@@ -461,6 +461,16 @@
             ],
             "source": "clean_data_full.csv",
             "target": "categorize_data.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "categorize_data.R",
+            "target": "datacat.csv"
         }
     ],
     "nodes": [
@@ -631,6 +641,6 @@
             "name": "categorize_data.R"
         }
     ],
-    "updated_at": "2018-12-06 19:52:33",
+    "updated_at": "2018-12-06 19:53:03",
     "url": "https://github.com/fall2018-saltz/team55"
 }
