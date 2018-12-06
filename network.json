@@ -611,9 +611,9 @@
             "assigned_to": "rohanmahajan",
             "desc": "use appropriate algorithms to generate models for predictive analytics",
             "name": "model_generation1.R",
-            "task_status": "validating"
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-06 02:26:19",
+    "updated_at": "2018-12-06 14:49:52",
     "url": "https://github.com/fall2018-saltz/team55"
 }
