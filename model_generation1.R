@@ -11,3 +11,6 @@ nb <- naiveBayes(Satisfaction ~ Airline.Status + Age + Gender +
               Shopping.Amount.at.Airport +
               Class + Scheduled.Departure.Hour +Departure.Delay.in.Minutes +
              Arrival.Delay.greater.5.Mins, data = clean_data)
+             
+
+summary(nb)
