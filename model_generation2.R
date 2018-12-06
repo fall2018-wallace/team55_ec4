@@ -66,7 +66,7 @@ ruleset <- apriori(dataX, parameter=list(support = 0.3,confidence = 0.3))
 sub<-subset(ruleset, subset = rhs %in% "Satisfaction=Satisfied")
 #inspect to see those rules
 inspect(sub)
-
+data <- as.data.frame(data)
 # Output
 # lhs                                     rhs                        support confidence      lift count
 # [1]  {}                                   => {Satisfaction=Satisfied} 0.5106351  0.5106351 1.0000000 44437
