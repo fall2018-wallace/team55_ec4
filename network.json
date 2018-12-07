@@ -164,16 +164,6 @@
         {
             "ports": [
                 {
-                    "output": "SatisfactionClass",
-                    "type": "png"
-                }
-            ],
-            "source": "Exploratory_Data_Analysis3.R",
-            "target": "SatisfactionClass.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "p1",
                     "type": "png"
                 }
@@ -471,6 +461,16 @@
             ],
             "source": "categorize_data.R",
             "target": "datacat.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatisfactionClass",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis3.R",
+            "target": "SatisfactionClassPlot.png"
         }
     ],
     "nodes": [
@@ -506,9 +506,6 @@
         },
         {
             "name": "SatisfactionShopping.png"
-        },
-        {
-            "name": "SatisfactionClass.png"
         },
         {
             "name": "Satisfactionnumberofflights.png"
@@ -641,8 +638,11 @@
             "desc": "",
             "name": "categorize_data.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "SatisfactionClassPlot.png"
         }
     ],
-    "updated_at": "2018-12-06 19:57:47",
+    "updated_at": "2018-12-07 04:12:04",
     "url": "https://github.com/fall2018-saltz/team55"
 }
