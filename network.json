@@ -64,16 +64,6 @@
         {
             "ports": [
                 {
-                    "input": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "cleaned_data.csv",
-            "target": "Exploratory_Data_Analysis1.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "data",
                     "type": "csv"
                 }
@@ -160,16 +150,6 @@
             ],
             "source": "Exploratory_Data_Analysis3.R",
             "target": "SatisfactionShopping.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "SatisfactionClass",
-                    "type": "png"
-                }
-            ],
-            "source": "Exploratory_Data_Analysis3.R",
-            "target": "SatisfactionClass.png"
         },
         {
             "ports": [
@@ -465,6 +445,36 @@
         {
             "ports": [
                 {
+                    "output": "SatisfactionClass",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis3.R",
+            "target": "SatisfactionClassPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "datacat.csv",
+            "target": "Exploratory_Data_Analysis1.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "datacat.csv",
+            "target": "Exploratory_Data_Analysis_3.R"
+        },
+        {
+            "ports": [
+                {
                     "output": "new_data",
                     "type": "csv"
                 }
@@ -506,9 +516,6 @@
         },
         {
             "name": "SatisfactionShopping.png"
-        },
-        {
-            "name": "SatisfactionClass.png"
         },
         {
             "name": "Satisfactionnumberofflights.png"
@@ -641,8 +648,17 @@
             "desc": "",
             "name": "categorize_data.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "SatisfactionClassPlot.png"
+        },
+        {
+            "assigned_to": "eashani",
+            "desc": "",
+            "name": "Exploratory_Data_Analysis_3.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-06 19:57:47",
+    "updated_at": "2018-12-07 16:02:25",
     "url": "https://github.com/fall2018-saltz/team55"
 }
