@@ -461,6 +461,16 @@
             ],
             "source": "Exploratory_Data_Analysis3.R",
             "target": "SatisfactionEatingAndDrinkingPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatisfactionDayOfMonth",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis3.R",
+            "target": "SatisfactionDayOfMonthPlot.png"
         }
     ],
     "nodes": [
@@ -633,6 +643,6 @@
             "name": "SatisfactionDayOfMonthPlot.png"
         }
     ],
-    "updated_at": "2018-12-07 20:45:05",
+    "updated_at": "2018-12-07 20:45:19",
     "url": "https://github.com/fall2018-saltz/team55"
 }
