@@ -602,8 +602,11 @@
             "desc": "",
             "name": "Exploratory_Data_Analysis3.R",
             "task_status": "completed"
+        },
+        {
+            "name": "SatisfactionShoppingPlot.png"
         }
     ],
-    "updated_at": "2018-12-07 20:43:46",
+    "updated_at": "2018-12-07 20:43:57",
     "url": "https://github.com/fall2018-saltz/team55"
 }
