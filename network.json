@@ -613,12 +613,6 @@
             "task_status": "completed"
         },
         {
-            "assigned_to": "achandir",
-            "desc": "",
-            "name": "Exploratory_Data_Analysis3.R",
-            "task_status": "completed"
-        },
-        {
             "name": "test.csv"
         },
         {
@@ -641,8 +635,14 @@
         },
         {
             "name": "SatisfactionClassPlot.png"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "",
+            "name": "Exploratory_Data_Analysis3.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-07 20:28:38",
+    "updated_at": "2018-12-07 20:29:27",
     "url": "https://github.com/fall2018-saltz/team55"
 }
