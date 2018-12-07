@@ -643,10 +643,12 @@
             "name": "SatisfactionClassPlot.png"
         },
         {
+            "assigned_to": "not assigned",
             "desc": "",
-            "name": "eda.R"
+            "name": "Exploratory_Data_Analysis_3.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-12-07 15:50:37",
+    "updated_at": "2018-12-07 15:51:33",
     "url": "https://github.com/fall2018-saltz/team55"
 }
