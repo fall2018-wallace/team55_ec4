@@ -10,23 +10,23 @@ p1<-ggplot(df)+geom_bar(mapping=aes(x=No.of.Flights.p.a.,fill=Satisfaction),posi
 # similar trends when comparing south east and other airlines
 
 #using this for Airline Status
-p2<-ggplot(df)+geom_bar(mapping=aes(x=Airline.Status,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
+p2<-ggplot(df)+geom_bar(mapping=aes(x=X..of.Flight.with.other.Airlines,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
 # More number of passengers are having Blue airline status and it increases from blue to platinum to gold to silver
 #similar trends when comapring southeast and other airlines
 
 #using this for gender
-p3<-ggplot(df)+geom_bar(mapping=aes(x=Gender,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
+p3<-ggplot(df)+geom_bar(mapping=aes(x=Type.of.Travel,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
 
 #similar trends when comparing south east and other airlines
 
 #using this for price sensitivity
-p4<-ggplot(df)+geom_bar(mapping=aes(x=Price.Sensitivity,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
+p4<-ggplot(df)+geom_bar(mapping=aes(x=No..of.other.Loyalty.Cards,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
 
 #decrease in satisfaction with increase and price sensitivity factor of the passenger
 #similar trends when comparing southeast and other airlines
 
 #using this for year of first flight
-satisfactionYearOfFirstFlight<-ggplot(df)+geom_bar(mapping=aes(x=Year.of.First.Flight,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
+#satisfactionYearOfFirstFlight<-ggplot(df)+geom_bar(mapping=aes(x=Year.of.First.Flight,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
 
 #similar trend in southeast and other airlines
 
