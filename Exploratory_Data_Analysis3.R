@@ -2,10 +2,6 @@
 library("ggplot2")
 dataframe <- dataset
 
-dataframe$Satisfaction <- as.numeric(as.character(t(dataframe$Satisfaction)))
-dataframe$Satisfaction[is.na(dataframe$Satisfaction)] <- 3.5
-dataframe$southeast<-as.factor(trimws(dataframe$Airline.Name)=='Southeast Airlines Co.')
-
 
 SatisfactionClass <- ggplot(dataframe) +geom_bar(mapping=aes(x=Class, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
 theme_classic()
