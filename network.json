@@ -470,7 +470,7 @@
                 }
             ],
             "source": "Exploratory_Data_Analysis3.R",
-            "target": "SatisfactionClass.png"
+            "target": "SatisfactionClassPlot.png"
         }
     ],
     "nodes": [
@@ -640,9 +640,9 @@
             "task_status": "in progress"
         },
         {
-            "name": "SatisfactionClass.png"
+            "name": "SatisfactionClassPlot.png"
         }
     ],
-    "updated_at": "2018-12-07 04:08:20",
+    "updated_at": "2018-12-07 04:10:33",
     "url": "https://github.com/fall2018-saltz/team55"
 }
