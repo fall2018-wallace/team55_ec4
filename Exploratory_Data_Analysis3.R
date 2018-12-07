@@ -6,6 +6,7 @@ dataframe$Satisfaction <- as.numeric(as.character(t(dataframe$Satisfaction)))
 dataframe$Satisfaction[is.na(dataframe$Satisfaction)] <- 3.5
 dataframe$southeast<-as.factor(trimws(dataframe$Airline.Name)=='Southeast Airlines Co.')
 
+ggplot(dataframe) +geom_bar(mapping=aes(x=Class, fill=Satisfaction),width=0.4)+scale_fill_grey()+
 #Class variable
 SatisfactionClass <- ggplot(dataframe, aes(x = Class,y = Satisfaction))+facet_grid(southeast ~ .)+geom_count()+
   stat_summary(aes(y=Satisfaction),fun.y="mean",size=2,colour='red',geom="point") 
