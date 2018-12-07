@@ -40,7 +40,7 @@ fD1
 fD2=ggplot(sat, aes(x=Airline.Name, y=Satisfaction))
 fD2=fD2+ geom_point()
 fD2=fD2+theme(axis.text.x = element_text(angle = 90, hjust = 1))+
-  stat_summary(fun.y="mean",geom="point", color ="red", size =2)
+  stat_summary(fun.y="mean",geom="point",size =2)
 fD2=fD2+ ggtitle("Airline Satisfaction")
 fD2
 #the Satisfaction for different airlines is seen
