@@ -4,7 +4,7 @@ library(dplyr)
 df<-data
 str(data)
 #using this for Age
-p1<-ggplot(df)+geom_bar(mapping=aes(x=Age,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
+p1<-ggplot(df)+geom_bar(mapping=aes(x=No.of.Flights.p.a.,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
 # As observed from the above plots, We can interpret that initially with increase in age, people's satisfaction raatings increase and then It starts decreasing after certain age
 # which says spproximately people in age range of 30 to 50 rate high on satisfaction
 # similar trends when comparing south east and other airlines
