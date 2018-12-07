@@ -14,7 +14,7 @@ theme_classic()
 #The same trend is followed by Southeast airlines
 
 #Day of month
-SatisfactionClass <- ggplot(dataframe) +geom_bar(mapping=aes(x=Day.of.Month, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
+SatisfactionDayOfMonth <- ggplot(dataframe) +geom_bar(mapping=aes(x=Day.of.Month, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
 theme_classic()
 
 
@@ -25,7 +25,7 @@ theme_classic()
 
 
 #Shopping amount at Airport
-SatisfactionClass <- ggplot(dataframe) +geom_bar(mapping=aes(x=Shopping.Amount.at.Airport, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
+SatisfactionShopping <- ggplot(dataframe) +geom_bar(mapping=aes(x=Shopping.Amount.at.Airport, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
 theme_classic()
 cor(dataframe$Shopping.Amount.at.Airport, dataframe$Satisfaction)
 #For airlines other than Southeast, 
@@ -43,7 +43,7 @@ cor(dataframe$Shopping.Amount.at.Airport, dataframe$Satisfaction)
 #The correlation between the two variables is 1.7% which is not very high
 
 #Eating and drinking at airport
-SatisfactionClass <- ggplot(dataframe) +geom_bar(mapping=aes(x=Eating.and.Drinking.at.Airport, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
+SatisfactionEatingAndDrinking <- ggplot(dataframe) +geom_bar(mapping=aes(x=Eating.and.Drinking.at.Airport, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
 theme_classic()
 cor(dataframe$Satisfaction, dataframe$Eating.and.Drinking.at.Airport)
 #For airlines other than Southeast, 
