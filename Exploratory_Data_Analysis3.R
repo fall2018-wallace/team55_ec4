@@ -1,6 +1,6 @@
 
 library("ggplot2")
-dataframe <- clean_data
+dataframe <- dataset
 
 dataframe$Satisfaction <- as.numeric(as.character(t(dataframe$Satisfaction)))
 dataframe$Satisfaction[is.na(dataframe$Satisfaction)] <- 3.5
