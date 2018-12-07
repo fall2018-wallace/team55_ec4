@@ -18,7 +18,7 @@ sat$southeast<-as.factor(trimws(sat$Airline.Name)=='Southeast Airlines Co.')
 
 #plot the graph for Satisfaction Vs FlightDate
 fD=ggplot(sat, aes(x=Flight.date, y=Satisfaction))+facet_grid(.~southeast)+
- stat_summary(fun.y="mean",geom="point", size =2)+scale_fill_grey() + theme_classic()
+ stat_summary(fun.y="mean",geom="point",colour='red',size =2)+scale_fill_grey()
 fD=fD+ geom_line()
 fD=fD+ ggtitle("Flight Date")
 fD
@@ -30,7 +30,7 @@ sat$week_days=weekdays(sat$Flight.date)
 #also few values fall near Satisfaction 3 and below
 
 fD1=ggplot(sat, aes(x=week_days, y=Satisfaction))+facet_grid(.~southeast)+
-  stat_summary(fun.y="mean",geom="point",size =2)+scale_fill_grey() + theme_classic()+theme(axis.text.x = element_text(angle = 90, hjust = 1))
+  stat_summary(fun.y="mean",geom="point",colour='red',size =2)+scale_fill_grey() + theme_classic()+theme(axis.text.x = element_text(angle = 90, hjust = 1))
 fD1=fD1+ geom_count()
 fD1=fD1+ ggtitle("Flight weekdays")
 fD1
@@ -40,14 +40,14 @@ fD1
 fD2=ggplot(sat, aes(x=Airline.Name, y=Satisfaction))
 fD2=fD2+ geom_point()
 fD2=fD2+theme(axis.text.x = element_text(angle = 90, hjust = 1))+
-  stat_summary(fun.y="mean",geom="point",size =2)
+  stat_summary(fun.y="mean",geom="point",colour='red',size =2)
 fD2=fD2+ ggtitle("Airline Satisfaction")
 fD2
 #the Satisfaction for different airlines is seen
 #almost all of them have an average Satisfaction of 3.5
 
 fD3=ggplot(sat, aes(x=sat$Scheduled.Departure.Hour, y=Satisfaction))+facet_grid(.~southeast)+
-  stat_summary(fun.y="mean",geom="point",size =2)+scale_fill_grey() + theme_classic()
+  stat_summary(fun.y="mean",geom="point",colour='red',size =2)+scale_fill_grey() + theme_classic()
 fD3=fD3+ geom_point()
 fD3=fD3+ ggtitle("Scheduled departure hour")
 fD3
@@ -55,7 +55,7 @@ fD3
 #few of them lead to Satisfaction 3
 
 fD4=ggplot(sat, aes(x=Departure.Delay.in.Minutes, y=Satisfaction))+facet_grid(.~southeast)+
-  stat_summary(fun.y="mean",geom="point",size =2)+scale_fill_grey() + theme_classic()
+  stat_summary(fun.y="mean",geom="point",colour='red',size =2)+scale_fill_grey() + theme_classic()
 fD4=fD4+geom_count()
 fD4=fD4+ ggtitle("Departure delay")
 fD4
