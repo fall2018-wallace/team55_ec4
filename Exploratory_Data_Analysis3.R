@@ -5,7 +5,6 @@ dataframe <- dataset
 
 SatisfactionClass <- ggplot(dataframe) +geom_bar(mapping=aes(x=Class, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
 theme_classic()
-SatisfactionClass
 #Class variable
 #SatisfactionClass <- ggplot(dataframe, aes(x = Class,y = Satisfaction))+facet_grid(southeast ~ .)+geom_count()+
   #stat_summary(aes(y=Satisfaction),fun.y="mean",size=2,colour='red',geom="point") 
@@ -15,22 +14,19 @@ SatisfactionClass
 #The same trend is followed by Southeast airlines
 
 #Day of month
-SatisfactionDayOfMonth<- ggplot(dataframe , aes( x=Day.of.Month, y=Satisfaction)) + facet_grid(. ~ southeast)+
-  stat_summary(fun.y = "mean", geom="col", color = "red", fill = "white")
+SatisfactionClass <- ggplot(dataframe) +geom_bar(mapping=aes(x=Day.of.Month, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
+theme_classic()
 
-cor(dataframe$Satisfaction, dataframe$Day.of.Month)
 
 #For airlines other than Southeast, 
 #the satisfaction value averages around 3.3 for almost all days of month
 #For Southeast airlines, the satisfaction value differs for different days.
 #For the 4th, 7th, 10th days, it is 3.5 with values lesser than that for the other days
 
-#The correlation between the two variables is 1.3% which is not very high
 
 #Shopping amount at Airport
-SatisfactionShopping<-ggplot(dataframe , aes( x=Shopping.Amount.at.Airport, y=Satisfaction)) + facet_grid(. ~ southeast)+
-  stat_summary_bin(fun.y = "mean", geom="col", binwidth = 100, color = "red", fill = "white")
-
+SatisfactionClass <- ggplot(dataframe) +geom_bar(mapping=aes(x=Shopping.Amount.at.Airport, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
+theme_classic()
 cor(dataframe$Shopping.Amount.at.Airport, dataframe$Satisfaction)
 #For airlines other than Southeast, 
 #Shopping amount ranges from 0 to 900
@@ -47,9 +43,8 @@ cor(dataframe$Shopping.Amount.at.Airport, dataframe$Satisfaction)
 #The correlation between the two variables is 1.7% which is not very high
 
 #Eating and drinking at airport
-SatisfactionEatingAndDrinking <- ggplot(dataframe , aes( x=Eating.and.Drinking.at.Airport, y=Satisfaction)) + facet_grid(. ~ southeast)+
-  stat_summary_bin(fun.y = "mean", geom="col", binwidth = 100, color = "red", fill = "white")
-
+SatisfactionClass <- ggplot(dataframe) +geom_bar(mapping=aes(x=Eating.and.Drinking.at.Airport, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
+theme_classic()
 cor(dataframe$Satisfaction, dataframe$Eating.and.Drinking.at.Airport)
 #For airlines other than Southeast, 
 #Eating and Drinking amount ranges from 0 to 900
