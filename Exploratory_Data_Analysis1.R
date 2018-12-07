@@ -1,7 +1,7 @@
 
 library(ggplot2)
 library(dplyr)
-df<-clean_data
+df<-data
 str(df)
 #using this for Age
 satisfactionAge<-ggplot(df,aes(Age,Satisfaction))+geom_count()+facet_grid(southeast ~ .)+stat_summary(aes(y=Satisfaction),fun.y = "mean", colour = "red", size = 2, geom = "point")
