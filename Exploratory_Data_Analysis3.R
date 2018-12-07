@@ -10,7 +10,7 @@ SatisfactionClass <- ggplot(dataframe) +geom_bar(mapping=aes(x=Class, fill=Satis
 theme_classic()
 #Class variable
 #SatisfactionClass <- ggplot(dataframe, aes(x = Class,y = Satisfaction))+facet_grid(southeast ~ .)+geom_count()+
-  stat_summary(aes(y=Satisfaction),fun.y="mean",size=2,colour='red',geom="point") 
+  #stat_summary(aes(y=Satisfaction),fun.y="mean",size=2,colour='red',geom="point") 
 
 #For airlines other than Southeast, 
 #Business class has highest rating (average) at 3.5, followed by Eco and then Eco plus
