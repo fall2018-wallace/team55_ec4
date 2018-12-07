@@ -465,11 +465,11 @@
         {
             "ports": [
                 {
-                    "input": "data",
+                    "input": "clean_data",
                     "type": "csv"
                 }
             ],
-            "source": "datacat.csv",
+            "source": "cleaned_data.csv",
             "target": "Exploratory_Data_Analysis3.R"
         }
     ],
@@ -643,6 +643,6 @@
             "name": "SatisfactionClassPlot.png"
         }
     ],
-    "updated_at": "2018-12-07 17:22:24",
+    "updated_at": "2018-12-07 17:23:14",
     "url": "https://github.com/fall2018-saltz/team55"
 }
