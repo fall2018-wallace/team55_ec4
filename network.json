@@ -615,8 +615,11 @@
         },
         {
             "name": "SatisfactionShoppingPlot.png"
+        },
+        {
+            "name": "SatisfactionEatingAndDrinkingPlot.png"
         }
     ],
-    "updated_at": "2018-12-07 20:44:12",
+    "updated_at": "2018-12-07 20:44:30",
     "url": "https://github.com/fall2018-saltz/team55"
 }
