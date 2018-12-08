@@ -213,16 +213,6 @@
         {
             "ports": [
                 {
-                    "input": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "cleaned_data.csv",
-            "target": "Exploratoty_Data_Analysis4.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "fD",
                     "type": "png"
                 }
@@ -470,6 +460,16 @@
             ],
             "source": "Exploratory_Data_Analysis3.R",
             "target": "SatisfactionDayOfMonthPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "datacat.csv",
+            "target": "Exploratoty_Data_Analysis4.R"
         }
     ],
     "nodes": [
@@ -642,6 +642,6 @@
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-08 04:13:42",
+    "updated_at": "2018-12-08 04:19:15",
     "url": "https://github.com/fall2018-saltz/team55"
 }
