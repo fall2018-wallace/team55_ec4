@@ -6,16 +6,11 @@ library(dplyr)
 
 #convert the target variable to numeric
 #to perfrom various EDA operations
-data$Satisfaction=as.numeric((as.character((t(data$Satisfaction)))))
-
-
-fD3<-ggplot(data)+geom_bar(mapping=aes(x=Scheduled.Departure.Hour,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
-fD3
 
 
 
-#plot the graph for Satisfaction Vs FlightDate
-fD
+
+
 #as plotting the whole date has no meaning,
 #plot it with day off the week_days
 
