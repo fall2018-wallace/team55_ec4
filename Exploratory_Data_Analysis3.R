@@ -23,9 +23,9 @@ theme_classic()
 
 
 #Shopping amount at Airport
-SatisfactionShopping <- ggplot(dataframe) +geom_bar(mapping=aes(x=Shopping.Amount.at.Airport, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
-theme_classic()
-cor(dataframe$Shopping.Amount.at.Airport, dataframe$Satisfaction)
+#SatisfactionShopping <- ggplot(dataframe) +geom_bar(mapping=aes(x=Shopping.Amount.at.Airport, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
+#theme_classic()
+#cor(dataframe$Shopping.Amount.at.Airport, dataframe$Satisfaction)
 #For airlines other than Southeast, 
 #Shopping amount ranges from 0 to 900
 #with customers who spend 700-800 units rating the Satisfaction at 4 (max) and 
