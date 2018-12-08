@@ -2,19 +2,13 @@
 library(ggplot2)
 library(dplyr)
 
-sat=data
+
 
 #convert the target variable to numeric
 #to perfrom various EDA operations
-sat$Satisfaction=as.numeric((as.character((t(sat$Satisfaction)))))
+data$Satisfaction=as.numeric((as.character((t(data$Satisfaction)))))
 
-class(sat$Flight.date)
-#covert the character to date format for FlightDate variable
-sat$Flight.date=as.Date(sat$Flight.date, format="%m/%d/%Y")
-class(sat$Flight.date)
 
-#our major concentration is on southeast airline 
-sat$southeast<-as.factor(trimws(sat$Airline.Name)=='Southeast Airlines Co.')
 
 
 fD=ggplot(data)+geom_bar(mapping=aes(x=Class,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()+facet_grid(Flight.date ~ .)
@@ -43,7 +37,8 @@ fD3
 #the graph is more spread for southeast Airlines
 #few of them lead to Satisfaction 3
 
-fD4=ggplot(data)+geom_bar(mapping=aes(x=Class,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()+facet_grid(Departure.Delay.in.Minutes ~ .)
+
+fD4<-ggplot(data)+geom_bar(mapping=aes(x=Departure.Delay.in.Minutes,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
 fD4
 #the rest of Satisfaction seems similar for all Airlines
 #all the departure delays are below 500 Minutes for southeast Airlines
