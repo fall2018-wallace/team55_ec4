@@ -625,8 +625,12 @@
             "desc": "",
             "name": "Exploratory_Data_Analysis3.R",
             "task_status": "completed"
+        },
+        {
+            "desc": "",
+            "name": "NaiveBayesEv.R"
         }
     ],
-    "updated_at": "2018-12-08 03:40:25",
+    "updated_at": "2018-12-08 03:41:33",
     "url": "https://github.com/fall2018-saltz/team55"
 }
