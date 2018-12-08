@@ -110,13 +110,7 @@ nb
 
 #Evaluation of the model is done as follows:
 
-predP <- predict(nb, newdata = clean_data1, type = "class")
-matrixSat <- table(predP,clean_data1$happyCust)
-sumMatrix <- matrixSat[1,1] + matrixSat[2,2]
 
-percSat <- sumMatrix/sum(matrixSat)
-percSat <- percSat*100 
-percSat
 
 #[1] 76.9396
 
