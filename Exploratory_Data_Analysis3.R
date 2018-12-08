@@ -14,8 +14,6 @@ theme_classic()
 #The same trend is followed by Southeast airlines
 
 #Day of month
-#SatisfactionDayOfMonth <- ggplot(dataframe) +geom_bar(mapping=aes(x=Day.of.Month, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
-#theme_classic()
 
 
 #For airlines other than Southeast, 
