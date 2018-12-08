@@ -16,6 +16,6 @@ satisfactionFlightTime<-ggplot(df)+geom_bar(mapping=aes(x=Flight.time.in.minutes
 
 satisfactionDistance<-ggplot(df)+geom_bar(mapping=aes(x=Flight.Distance,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
 #Same as flight time, the flight distance also has almost equal percentage of satisfied and non satisfied customers.
-satisfactionArrivalGreater<-ggplot(df)+geom_bar(mapping=aes(x=Arrival.Delay.greater.5.Mins,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
-#In this plot, it is observed that the customer satisfaction is comparatively lower than the arrival delay which is greater than 5 minutes. 
 
+satisfactionArrivalGreater<-ggplot(df)+geom_bar(mapping=aes(x=Arrival.Delay.greater.5.Mins,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
+#In this plot, it is shown that there are more non satisfied customers where the arrival delay is greater than
