@@ -465,6 +465,7 @@
         {
             "ports": [
                 {
+                    "input": "nb",
                     "output": "nb",
                     "type": "r_obj"
                 }
@@ -643,6 +644,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-08 03:41:58",
+    "updated_at": "2018-12-08 03:42:18",
     "url": "https://github.com/fall2018-saltz/team55"
 }
