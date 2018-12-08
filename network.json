@@ -11,16 +11,6 @@
         {
             "ports": [
                 {
-                    "output": "model_matrix",
-                    "type": "csv"
-                }
-            ],
-            "source": "evaluation.R",
-            "target": "evaluation_matrix.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "model4",
                     "output": "model4",
                     "type": "r_obj"
@@ -470,6 +460,16 @@
             ],
             "source": "datacat.csv",
             "target": "Exploratoty_Data_Analysis4.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "x",
+                    "type": "csv"
+                }
+            ],
+            "source": "evaluation.R",
+            "target": "evaluation_matrix.csv"
         }
     ],
     "nodes": [
@@ -642,6 +642,6 @@
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-08 04:32:43",
+    "updated_at": "2018-12-08 04:44:36",
     "url": "https://github.com/fall2018-saltz/team55"
 }
