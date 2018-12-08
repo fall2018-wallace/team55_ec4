@@ -640,8 +640,12 @@
             "desc": "Association Rule Mining to generate most relevant rules for predicting that the customer is satisfied",
             "name": "model_generation2.R",
             "task_status": "completed"
+        },
+        {
+            "desc": "",
+            "name": "NBEv.R"
         }
     ],
-    "updated_at": "2018-12-08 04:19:15",
+    "updated_at": "2018-12-08 04:26:58",
     "url": "https://github.com/fall2018-saltz/team55"
 }
