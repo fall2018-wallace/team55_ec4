@@ -120,3 +120,5 @@ percSat
 
 #Using the predict command, the happy customers were matched and a confusion matrix was created
 #called matrixSat.
+
+#Then the percentage calculation was done to find how accurate the model was.
