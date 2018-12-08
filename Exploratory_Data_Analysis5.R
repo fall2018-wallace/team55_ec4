@@ -1,7 +1,7 @@
 
 library(ggplot2)
 library(dplyr)
-df<-clean_data
+df<-data
 
 #Customer satisfaction for Departure Delay for Southeast airlines is at an average of 3.5.
 #The delay in minutes is at an average of about 100-150 minutes for both airlines.
