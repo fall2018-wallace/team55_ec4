@@ -2,15 +2,9 @@
 library(ggplot2)
 library(dplyr)
 df<-data
-satisfactionDelay<-ggplot(df)+geom_bar(mapping=aes(x=Departure.Delay.in.Minutes,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
-#Customer satisfaction for Departure Delay for Southeast airlines is at an average of 3.5.
-#The delay in minutes is at an average of about 100-150 minutes for both airlines.
 
 satisfactionArrivalDelay<-ggplot(df)+geom_bar(mapping=aes(x=Arrival.Delay.in.Minutes,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
-#The customer satisfaction for Southeast Airlines is average at the highest arrival delay. 
-#Whereas average delay is about 50-100 minutes with customer satisfaction ranging from 3-3.5.
-#For other airlines, there has been more delays but average is slightly the same.
-
+#The percentage of satisfied and not satisfied customers is pretty much the same considering the Arrival Delay.
 satisfactionCancelled<-ggplot(df)+geom_bar(mapping=aes(x=Flight.cancelled,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
 #In this plot, customer satisfactions can be seen by flights which were cancelled as well.
 
