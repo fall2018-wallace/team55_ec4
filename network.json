@@ -623,12 +623,6 @@
             "name": "SatisfactionShoppingPlot.png"
         },
         {
-            "assigned_to": "rohanmahajan",
-            "desc": "Usage of Naive Bayes classifier and calculation/evaluation of the accuracy.",
-            "name": "NaiveBayesEvaluation.R",
-            "task_status": "completed"
-        },
-        {
             "name": "SatisfactionEatingAndDrinkingPlot.png"
         },
         {
@@ -657,8 +651,14 @@
             "desc": "",
             "name": "NBEv.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "Usage of Naive Bayes classifier and calculation/evaluation of the accuracy.",
+            "name": "NaiveBayesEvaluation.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-08 04:27:22",
+    "updated_at": "2018-12-08 04:28:35",
     "url": "https://github.com/fall2018-saltz/team55"
 }
