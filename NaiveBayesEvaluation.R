@@ -34,6 +34,7 @@ summary(nb)
 
 nb
 
+#Output for Naive Bayes 
 
 
 predP <- predict(nb, newdata = clean_data1, type = "class")
