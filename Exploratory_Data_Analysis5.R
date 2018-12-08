@@ -21,3 +21,4 @@ satisfactionArrivalGreater<-ggplot(df)+geom_bar(mapping=aes(x=Arrival.Delay.grea
 #In this plot, it is shown that there are more non satisfied customers where the arrival delay is greater than
 #5 minutes.
 #This indicates that although there may not be a difference in just a regular arrival delay, if the delay is 
+#greater than 5 minutes, then the satisfaction gets affected.
