@@ -10,8 +10,6 @@ sat$Satisfaction=as.numeric((as.character((t(sat$Satisfaction)))))
 
 class(sat$Flight.date)
 #covert the character to date format for FlightDate variable
-sat$Flight.date=as.Date(sat$Flight.date, format="%m/%d/%Y")
-class(sat$Flight.date)
 
 #our major concentration is on southeast airline 
 sat$southeast<-as.factor(trimws(sat$Airline.Name)=='Southeast Airlines Co.')
