@@ -25,7 +25,7 @@ fD1
 #the remaining are almost same for all days
 
 
-Scheduled.Departure.Hour
+
 #the Satisfaction for different airlines is seen
 #almost all of them have an average Satisfaction of 3.5
 
