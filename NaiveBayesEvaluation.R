@@ -119,3 +119,4 @@ percSat
 #[1] 0.769396
 
 #Using the predict command, the happy customers were matched and a confusion matrix was created
+#called matrixSat.
