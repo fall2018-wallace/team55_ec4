@@ -37,6 +37,7 @@ fD2
 fD3<-ggplot(data)+geom_bar(mapping=aes(x=Scheduled.Departure.Hour,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
 fD3
 
+#people are more not satisfied for scheduled departure hours 3,6 and 7
 fD4<-ggplot(data)+geom_bar(mapping=aes(x=Departure.Delay.in.Minutes,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
 fD4
 #the rest of Satisfaction seems similar for all Airlines
