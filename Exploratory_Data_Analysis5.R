@@ -22,6 +22,6 @@ satisfactionDistance<-ggplot(df)+geom_bar(mapping=aes(x=Flight.Distance,fill=Sat
 #The average customer satisfaction is about 3.5 with most flight distances under 1000 miles.
 #Customer satisfaction is about the same for longer flight distances as well.
 
+satisfactionArrivalGreater<-ggplot(df)+geom_bar(mapping=aes(x=Arrival.Delay.greater.5.Mins,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
 #In this plot, it is observed that the customer satisfaction is comparatively lower than the arrival delay which is greater than 5 minutes. 
-satisfactionArrivalGreater<-ggplot(df,aes(Arrival.Delay.greater.5.Mins,Satisfaction))+geom_count()+facet_grid(southeast ~ .)+stat_summary(aes(y=Satisfaction),fun.y = "mean", colour = "red", size = 2, geom = "point")
 
