@@ -24,7 +24,14 @@ nb <- naiveBayes(happyCust ~ Airline.Status + Age + Gender +
 
 summary(nb)
 
-#Output for Summary of model1
+#Output for Summary of model
+
+#        Length Class  Mode     
+#apriori  2     table  numeric  
+#tables  12     -none- list     
+#levels   2     -none- character
+#call     4     -none- call     
+
 nb
 
 
