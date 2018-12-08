@@ -9,9 +9,11 @@ library(dplyr)
 data$Satisfaction=as.numeric((as.character((t(data$Satisfaction)))))
 
 
+fD3<-ggplot(data)+geom_bar(mapping=aes(x=Scheduled.Departure.Hour,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
+fD3
 
 
-fD=ggplot(data)+geom_bar(mapping=aes(x=Class,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()+facet_grid(Flight.date ~ .)
+
 #plot the graph for Satisfaction Vs FlightDate
 fD
 #as plotting the whole date has no meaning,
@@ -20,9 +22,10 @@ fD
 #day of the month is already present as a variable
 #the spread is more for southeast Airlines
 #also few values fall near Satisfaction 3 and below
-fD1=ggplot(data)+geom_bar(mapping=aes(x=Class,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()+facet_grid(week_days~ .)
 
+fD1<-ggplot(data)+geom_bar(mapping=aes(x=week_days,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
 fD1
+
 #the Satisfaction for southeast is more on tuesdays
 #the remaining are almost same for all days
 
