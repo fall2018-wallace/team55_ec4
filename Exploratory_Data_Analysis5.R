@@ -10,9 +10,9 @@ satisfactionArrivalDelay<-ggplot(df)+geom_bar(mapping=aes(x=Arrival.Delay.in.Min
 satisfactionCancelled<-ggplot(df)+geom_bar(mapping=aes(x=Flight.cancelled,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
 #It can be seen that there are more non satisfied people where flights are cancelled. 
 #This is explainable as cancelled flights could result in a negative review.
-satisfactionFlightTime<-ggplot(df)+geom_bar(mapping=aes(x=Flight.time.in.minutes,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
-#In this plot, the arrival delay of flights which are greater than 5 minutes have comparatively low satisfaction than the flights
 
+satisfactionFlightTime<-ggplot(df)+geom_bar(mapping=aes(x=Flight.time.in.minutes,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
+#Considering the flight time, there are almost equal number of satisfied and not satisfied customers.
 satisfactionDistance<-ggplot(df)+geom_bar(mapping=aes(x=Flight.Distance,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
 #In this plot, it can be observed that most number ofcustomers had flights which were of the distance of 500-1000 miles. 
 #The average customer satisfaction is about 3.5 with most flight distances under 1000 miles.
