@@ -16,7 +16,7 @@ fD=ggplot(data)+geom_bar(mapping=aes(x=Class,fill=Satisfaction),position="fill",
 fD
 #as plotting the whole date has no meaning,
 #plot it with day off the week_days
-sat$week_days=weekdays(sat$Flight.date)
+
 #day of the month is already present as a variable
 #the spread is more for southeast Airlines
 #also few values fall near Satisfaction 3 and below
