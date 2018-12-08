@@ -1,7 +1,7 @@
 
 library("ggplot2")
 dataframe <- dataset
-str(dataframe\)
+str(dataframe)
 
 
 SatisfactionClass <- ggplot(dataframe) +geom_bar(mapping=aes(x=Class, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
