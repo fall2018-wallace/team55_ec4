@@ -5,6 +5,8 @@ dataframe <- dataset
 
 SatisfactionClass <- ggplot(dataframe) +geom_bar(mapping=aes(x=Class, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
 theme_classic()
+SatisfactionShopping <- ggplot(dataframe) +geom_bar(mapping=aes(x=Shopping.Amount.at.Airport, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
+theme_classic()
 #Class variable
 #SatisfactionClass <- ggplot(dataframe, aes(x = Class,y = Satisfaction))+facet_grid(southeast ~ .)+geom_count()+
   #stat_summary(aes(y=Satisfaction),fun.y="mean",size=2,colour='red',geom="point") 
