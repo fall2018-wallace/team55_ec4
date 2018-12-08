@@ -625,11 +625,8 @@
             "desc": "Usage of Naive Bayes classifier and calculation/evaluation of the accuracy.",
             "name": "NaiveBayesEvaluation.R",
             "task_status": "completed"
-        },
-        {
-            "name": "SatisfactionEatingAndDrinking.png"
         }
     ],
-    "updated_at": "2018-12-08 03:53:56",
+    "updated_at": "2018-12-08 03:54:12",
     "url": "https://github.com/fall2018-saltz/team55"
 }
