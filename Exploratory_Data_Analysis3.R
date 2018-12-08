@@ -7,6 +7,8 @@ SatisfactionClass <- ggplot(dataframe) +geom_bar(mapping=aes(x=Class, fill=Satis
 theme_classic()
 SatisfactionShopping <- ggplot(dataframe) +geom_bar(mapping=aes(x=Shopping.Amount.at.Airport, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
 theme_classic()
+SatisfactionEatingAndDrinking <- ggplot(dataframe) +geom_bar(mapping=aes(x=Eating.and.Drinking.at.Airport, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
+theme_classic()
 SatisfactionDayOfMonth <- ggplot(dataframe) +geom_bar(mapping=aes(x=Day.of.Month, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
 theme_classic()
 #Class variable
