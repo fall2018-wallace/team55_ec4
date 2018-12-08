@@ -114,7 +114,7 @@ matrixSat <- table(predP,clean_data1$happyCust)
 sumMatrix <- matrixSat[1,1] + matrixSat[2,2]
 
 percSat <- sumMatrix/sum(matrixSat)
-percSat
+percSat <- percSat*100 
 
 #[1] 0.769396
 
@@ -122,3 +122,4 @@ percSat
 #called matrixSat.
 
 #Then the percentage calculation was done to find how accurate the model was.
+#The division shows 0.7693 which indicates
