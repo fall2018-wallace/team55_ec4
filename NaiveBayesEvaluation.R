@@ -117,10 +117,10 @@ percSat <- sumMatrix/sum(matrixSat)
 percSat <- percSat*100 
 percSat
 
-#[1] 0.769396
+#[1] 76.9396
 
 #Using the predict command, the happy customers were matched and a confusion matrix was created
 #called matrixSat.
 
 #Then the percentage calculation was done to find how accurate the model was.
-#The division shows 0.7693 which indicates
+#The division shows 0.7693 and was multiplied with hundred to show the percentage.
