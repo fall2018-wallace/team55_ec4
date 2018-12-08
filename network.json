@@ -625,8 +625,12 @@
             "desc": "",
             "name": "Exploratory_Data_Analysis3.R",
             "task_status": "completed"
+        },
+        {
+            "desc": "Evaluation and percentage for Naive Bayes accuracy.",
+            "name": "NaiveBayesEv.R"
         }
     ],
-    "updated_at": "2018-12-08 02:00:07",
+    "updated_at": "2018-12-08 03:36:58",
     "url": "https://github.com/fall2018-saltz/team55"
 }
