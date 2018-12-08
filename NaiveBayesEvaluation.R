@@ -115,3 +115,5 @@ sumMatrix <- matrixSat[1,1] + matrixSat[2,2]
 
 percSat <- sumMatrix/sum(matrixSat)
 percSat
+
+#[1] 0.769396
