@@ -19,3 +19,4 @@ satisfactionDistance<-ggplot(df)+geom_bar(mapping=aes(x=Flight.Distance,fill=Sat
 
 satisfactionArrivalGreater<-ggplot(df)+geom_bar(mapping=aes(x=Arrival.Delay.greater.5.Mins,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
 #In this plot, it is shown that there are more non satisfied customers where the arrival delay is greater than
+#5 minutes.
