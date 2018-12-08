@@ -26,17 +26,18 @@ fD1
 #the Satisfaction for southeast is more on tuesdays
 #the remaining are almost same for all days
 
-fD3=ggplot(data)+geom_bar(mapping=aes(x=Class,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()+facet_grid(Airline.Name ~ .)
 
-fD2
+Scheduled.Departure.Hour
 #the Satisfaction for different airlines is seen
 #almost all of them have an average Satisfaction of 3.5
 
-fD3=ggplot(data)+geom_bar(mapping=aes(x=Class,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()+facet_grid( Scheduled.Departure.Hour  ~ .)
-fD3
+fD2<-ggplot(data)+geom_bar(mapping=aes(x=Airline.Name,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
+fD2
+
 #the graph is more spread for southeast Airlines
 #few of them lead to Satisfaction 3
-
+fD3<-ggplot(data)+geom_bar(mapping=aes(x=Scheduled.Departure.Hour,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
+fD3
 
 fD4<-ggplot(data)+geom_bar(mapping=aes(x=Departure.Delay.in.Minutes,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
 fD4
