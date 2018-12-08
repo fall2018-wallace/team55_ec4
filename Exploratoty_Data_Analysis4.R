@@ -2,7 +2,7 @@
 library(ggplot2)
 library(dplyr)
 
-sat=clean_data
+sat<-clean_data
 
 #convert the target variable to numeric
 #to perfrom various EDA operations
