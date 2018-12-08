@@ -20,7 +20,7 @@ library(dplyr)
 
 fD1<-ggplot(data)+geom_bar(mapping=aes(x=week_days,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()
 fD1
-
+#more people seem to be not satisfied on thursdays
 #the Satisfaction for southeast is more on tuesdays
 #the remaining are almost same for all days
 
