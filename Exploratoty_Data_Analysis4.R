@@ -20,7 +20,7 @@ sat$week_days=weekdays(sat$Flight.date)
 #day of the month is already present as a variable
 #the spread is more for southeast Airlines
 #also few values fall near Satisfaction 3 and below
-fD1=ggplot(data)+geom_bar(mapping=aes(x=Class,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()+facet_grid(weekdays~ .)
+fD1=ggplot(data)+geom_bar(mapping=aes(x=Class,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()+facet_grid(week_days~ .)
 
 fD1
 #the Satisfaction for southeast is more on tuesdays
@@ -32,7 +32,7 @@ fD2
 #the Satisfaction for different airlines is seen
 #almost all of them have an average Satisfaction of 3.5
 
-fD3=ggplot(data)+geom_bar(mapping=aes(x=Class,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()+facet_grid(Scheduled.Departure ~ .)
+fD3=ggplot(data)+geom_bar(mapping=aes(x=Class,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()+facet_grid( Scheduled.Departure.Hour  ~ .)
 fD3
 #the graph is more spread for southeast Airlines
 #few of them lead to Satisfaction 3
