@@ -41,7 +41,7 @@ theme_classic()
 #The correlation between the two variables is 1.7% which is not very high
 
 #Eating and drinking at airport
-SatisfactionEatingAndDrinking <- ggplot(dataframe) +geom_bar(mapping=aes(x=Eating.and.Drinking.at.Airport, fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
+SatisfactionEatingAndDrinking <- ggplot(dataframe) +geom_bar(x=Eating.and.Drinking.at.Airport,mapping=aes(fill=Satisfaction),position="fill", width=0.4)+scale_fill_grey()+
 theme_classic()
 cor(dataframe$Satisfaction, dataframe$Eating.and.Drinking.at.Airport)
 #For airlines other than Southeast, 
