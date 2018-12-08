@@ -16,11 +16,9 @@ class(sat$Flight.date)
 #our major concentration is on southeast airline 
 sat$southeast<-as.factor(trimws(sat$Airline.Name)=='Southeast Airlines Co.')
 
+
+fD=ggplot(data)+geom_bar(mapping=aes(x=Class,fill=Satisfaction),position="fill",width=0.4)+scale_fill_grey() + theme_classic()+facet_grid(Flight.date ~ .)
 #plot the graph for Satisfaction Vs FlightDate
-fD=ggplot(sat, aes(x=Flight.date, y=Satisfaction))+facet_grid(.~southeast)+
- stat_summary(fun.y="mean",geom="point",colour='red',size =2)+scale_fill_grey()
-fD=fD+ geom_line()
-fD=fD+ ggtitle("Flight Date")
 fD
 #as plotting the whole date has no meaning,
 #plot it with day off the week_days
