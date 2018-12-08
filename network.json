@@ -11,17 +11,6 @@
         {
             "ports": [
                 {
-                    "input": "model1",
-                    "output": "model1",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "NaiveBayesEvaluation.R",
-            "target": "evaluation.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "model_matrix",
                     "type": "csv"
                 }
@@ -635,12 +624,6 @@
             "name": "SatisfactionShoppingPlot.png"
         },
         {
-            "assigned_to": "achandir",
-            "desc": "",
-            "name": "Exploratory_Data_Analysis3.R",
-            "task_status": "completed"
-        },
-        {
             "assigned_to": "rohanmahajan",
             "desc": "Usage of Naive Bayes classifier and calculation/evaluation of the accuracy.",
             "name": "NaiveBayesEvaluation.R",
@@ -651,8 +634,14 @@
         },
         {
             "name": "SatisfactionDayOfMonthPlot.png"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "",
+            "name": "Exploratory_Data_Analysis3.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-08 03:56:35",
+    "updated_at": "2018-12-08 04:05:27",
     "url": "https://github.com/fall2018-saltz/team55"
 }
