@@ -16,7 +16,7 @@
                     "type": "r_obj"
                 }
             ],
-            "source": "model_generation1.R",
+            "source": "NaiveBayesEvaluation.R",
             "target": "evaluation.R"
         },
         {
@@ -289,7 +289,7 @@
                 }
             ],
             "source": "cleaned_data.csv",
-            "target": "model_generation1.R"
+            "target": "NaiveBayesEvaluation.R"
         },
         {
             "ports": [
@@ -461,6 +461,26 @@
             ],
             "source": "datacat.csv",
             "target": "Exploratory_Data_Analysis5.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatisfactionEatingAndDrinking",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis3.R",
+            "target": "SatisfactionEatingAndDrinkingPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatisfactionDayOfMonth",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploratory_Data_Analysis3.R",
+            "target": "SatisfactionDayOfMonthPlot.png"
         }
     ],
     "nodes": [
@@ -600,12 +620,6 @@
             "name": "clean_data1.csv"
         },
         {
-            "assigned_to": "rohanmahajan",
-            "desc": "use appropriate algorithms to generate models for predictive analytics",
-            "name": "model_generation1.R",
-            "task_status": "completed"
-        },
-        {
             "name": "datacat.csv"
         },
         {
@@ -625,8 +639,20 @@
             "desc": "",
             "name": "Exploratory_Data_Analysis3.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "Usage of Naive Bayes classifier and calculation/evaluation of the accuracy.",
+            "name": "NaiveBayesEvaluation.R",
+            "task_status": "completed"
+        },
+        {
+            "name": "SatisfactionEatingAndDrinkingPlot.png"
+        },
+        {
+            "name": "SatisfactionDayOfMonthPlot.png"
         }
     ],
-    "updated_at": "2018-12-08 02:00:07",
+    "updated_at": "2018-12-08 03:56:35",
     "url": "https://github.com/fall2018-saltz/team55"
 }

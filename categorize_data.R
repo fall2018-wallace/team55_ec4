@@ -54,3 +54,4 @@ data$southeast=as.factor(data$southeast)
 data$Year.of.First.Flight=as.factor(data$Year.of.First.Flight)
 data<-data.frame(sapply(data,as.factor))
 new_data<-data
+str(new_data)

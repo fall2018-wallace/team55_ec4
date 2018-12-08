@@ -17,5 +17,7 @@ clean_data1$Flight.time.in.minutes[is.na(clean_data1$Flight.time.in.minutes)] <-
 
 
 # origin city, destination, airline code, flights with other airlines,arrival and departure delay and day of month don't affect happiness significantly(high p values)
-model3 <- glm(happyCust~Airline.Status+Age+Gender+Price.Sensitivity+No.of.Flights.p.a.+ Type.of.Travel+Shopping.Amount.at.Airport+Class+Arrival.Delay.greater.5.Mins+Eating.and.Drinking.at.Airport,family="binomial",data=clean_data1)
+model3 <- glm(happyCust~Airline.Status+Age+Gender+Price.Sensitivity+No.of.Flights.p.a.+ Type.of.Travel+Shopping.Amount.at.Airport+Class+Arrival.Delay.greater.5.Mins+Eating.and.Drinking.at.Airport+southeast,family="binomial",data=clean_data1)
 summary(model3)
+#model3 <- glm(happyCust~.,family="binomial",data=clean_data1)
+#summary(model3)
