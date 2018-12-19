@@ -21,7 +21,7 @@ unique(clean_data$Satisfaction)
 clean_data_full=clean_data
 #re-run the analysis with a random sample of 75% of the data
 
-summary(cleaned_data)
+nrows(cleaned_data)
 sample = sample.split(clean_data$Age, SplitRatio = .67)
 train = subset(clean_data, sample == TRUE)
 test  = subset(clean_data, sample == FALSE)
