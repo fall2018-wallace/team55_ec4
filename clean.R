@@ -20,8 +20,7 @@ clean_data$southeast<-as.factor(trimws(clean_data$Airline.Name)=='Southeast Airl
 unique(clean_data$Satisfaction)
 clean_data_full=clean_data
 #re-run the analysis with a random sample of 75% of the data
-library(dplyr)
-cleaned_data<-sample(clean_data_full,9741,replace=FALSE)
+
 str(cleaned_data)
 sample = sample.split(clean_data$Age, SplitRatio = .67)
 train = subset(clean_data, sample == TRUE)
