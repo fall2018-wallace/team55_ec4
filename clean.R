@@ -19,6 +19,7 @@ clean_data$Satisfaction[is.na(clean_data$Satisfaction)] <- 3.5
 clean_data$southeast<-as.factor(trimws(clean_data$Airline.Name)=='Southeast Airlines Co.')
 unique(clean_data$Satisfaction)
 clean_data_full=clean_data
+str(clean_data_full)
 #re-run the analysis with a random sample of 75% of the data
 cleaned_data<-sample(clean_data_full,97414,replace=FALSE)
 str(cleaned_data)
