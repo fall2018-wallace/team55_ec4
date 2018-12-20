@@ -21,7 +21,7 @@ unique(clean_data$Satisfaction)
 clean_data_full=clean_data
 str(clean_data_full)
 #re-run the analysis with a random sample of 75% of the data
-cleaned_data<-sample(clean_data_full,97414,replace=FALSE)
+
 str(cleaned_data)
 sample = sample.split(clean_data$Age, SplitRatio = .67)
 train = subset(clean_data, sample == TRUE)
